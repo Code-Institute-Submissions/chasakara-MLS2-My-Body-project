@@ -80,48 +80,48 @@ var myQuestions = [
     {
         question: "Which material is your hair and nails made from",
         answers: {
-            a: '3',
+            a: 'Sodium',
             b: 'Keratin',
-            c: '6',
-        },
-        correctAnswer: ''
-    },
-    {
-        question: "Which part of your eye respond to light",
-        answers: {
-            a: '3',
-            b: '5',
-            c: 'Retina',
-        },
-        correctAnswer: ''
-    },
-    {
-        question: "How many bones does an adult human have",
-        answers: {
-            a: '3',
-            b: '5',
-            c: '6',
-            d: '',
+            c: 'Calcium',
         },
         correctAnswer: 'b'
     },
     {
+        question: "Which part of your eye respond to light",
+        answers: {
+            a: 'Pupil',
+            b: 'Cornea',
+            c: 'Retina',
+        },
+        correctAnswer: 'c'
+    },
+    {
+        question: "How many bones does an adult human have",
+        answers: {
+            a: '270',
+            b: '215',
+            c: '233',
+            d: '206',
+        },
+        correctAnswer: 'd'
+    },
+    {
         question: "Which part your body produces sound",
         answers: {
-            a: '3',
-            b: 'larynx',
-            c: '6',
+            a: 'Esophagus',
+            b: 'Larynx',
+            c: 'Pharynx',
         },
         correctAnswer: 'b'
     },
     {
         question: "What is the purpose of the spinal code",
         answers: {
-            a: '3',
-            b: '5',
-            c: '6',
+            a: 'It protects your back',
+            b: 'It give you balance when you are standing up',
+            c: 'It connects a large part of the peripheral nervous system to the brain',
         },
-        correctAnswer: ''
+        correctAnswer: 'c'
     },
     {
         question: "The spinal code is connected to which organ",
