@@ -51,7 +51,7 @@ var myQuestions = [
         question: "which one is not part of the eye?",
         answers: {
             a: 'Retina',
-            b: '',
+            b: 'Cerebrum',
             c: 'Cornea',
             d: 'Lens',
         },
@@ -68,13 +68,14 @@ var myQuestions = [
         correctAnswer: 'd'
     },
     {
-        question: "How many senses do humans have",
+        question: "Which ons is not a function of the kidney",
         answers: {
-            a: '3',
-            b: '5',
-            c: '6',
+            a: 'Controlling blood sugar level',
+            b: 'Controlling blood PRESSURE.',
+            c: 'Controlling acid-base balance',
+            d: 'Controlling water balance',
         },
-        correctAnswer: 'b'
+        correctAnswer: 'a'
     },
     {
         question: "How many senses do humans have",
