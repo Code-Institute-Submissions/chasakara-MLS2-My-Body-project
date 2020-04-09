@@ -78,103 +78,104 @@ var myQuestions = [
         correctAnswer: 'a'
     },
     {
-        question: "How many senses do humans have",
+        question: "Which material is your hair and nails made from",
+        answers: {
+            a: '3',
+            b: 'Keratin',
+            c: '6',
+        },
+        correctAnswer: ''
+    },
+    {
+        question: "Which part of your eye respond to light",
         answers: {
             a: '3',
             b: '5',
+            c: 'Retina',
+        },
+        correctAnswer: ''
+    },
+    {
+        question: "How many bones does an adult human have",
+        answers: {
+            a: '3',
+            b: '5',
+            c: '6',
+            d: '',
+        },
+        correctAnswer: 'b'
+    },
+    {
+        question: "Which part your body produces sound",
+        answers: {
+            a: '3',
+            b: 'larynx',
             c: '6',
         },
         correctAnswer: 'b'
     },
     {
-        question: "How many senses do humans have",
+        question: "What is the purpose of the spinal code",
         answers: {
             a: '3',
             b: '5',
             c: '6',
         },
-        correctAnswer: 'b'
+        correctAnswer: ''
     },
     {
-        question: "How many senses do humans have",
+        question: "The spinal code is connected to which organ",
         answers: {
             a: '3',
             b: '5',
             c: '6',
         },
-        correctAnswer: 'b'
+        correctAnswer: ''
     },
     {
-        question: "How many senses do humans have",
+        question: "Which one does not happen to your body when you are cold",
         answers: {
             a: '3',
             b: '5',
             c: '6',
         },
-        correctAnswer: 'b'
+        correctAnswer: ''
     },
     {
-        question: "How many senses do humans have",
+        question: "What is the function of red blood cells",
         answers: {
             a: '3',
             b: '5',
             c: '6',
         },
-        correctAnswer: 'b'
+        correctAnswer: ''
     },
     {
-        question: "How many senses do humans have",
+        question: "What is the function of white blood cells",
         answers: {
             a: '3',
             b: '5',
             c: '6',
         },
-        correctAnswer: 'b'
+        correctAnswer: ''
     },
     {
-        question: "How many senses do humans have",
+        question: "Which nutrient is not stored by your body",
         answers: {
-            a: '3',
-            b: '5',
-            c: '6',
+            a: 'Fat',
+            b: 'Protein',
+            c: 'Carbohydrates',
         },
-        correctAnswer: 'b'
+        correctAnswer: ''
     },
     {
-        question: "How many senses do humans have",
+        question: "When you exercise what do you burn",
         answers: {
             a: '3',
             b: '5',
             c: '6',
         },
-        correctAnswer: 'b'
-    },
-    {
-        question: "How many senses do humans have",
-        answers: {
-            a: '3',
-            b: '5',
-            c: '6',
-        },
-        correctAnswer: 'b'
-    },
-    {
-        question: "How many senses do humans have",
-        answers: {
-            a: '3',
-            b: '5',
-            c: '6',
-        },
-        correctAnswer: 'b'
-    },
-    {
-        question: "How many senses do humans have",
-        answers: {
-            a: '3',
-            b: '5',
-            c: '6',
-        },
-        correctAnswer: 'b'
+        correctAnswer: ''
     },
     {
         question: "What body organ do you use for sense of touch",
@@ -183,16 +184,107 @@ var myQuestions = [
             b: '5',
             c: '6',
         },
-        correctAnswer: 'b'
+        correctAnswer: ''
     },
     {
-        question: "How many senses do humans have",
+        question: "What is the purpose of oygen in your body",
         answers: {
             a: '3',
             b: '5',
             c: '6',
         },
+        correctAnswer: ''
+    },
+    {
+        question: "",
+        answers: {
+            a: '3',
+            b: '5',
+            c: '6',
+        },
+        correctAnswer: ''
+    },
+    {
+        question: "What is the purpose of oygen in your body",
+        answers: {
+            a: '3',
+            b: '5',
+            c: '6',
+        },
+        correctAnswer: ''
+    },
+    {
+        question: "What is the purpose of oygen in your body",
+        answers: {
+            a: '3',
+            b: '5',
+            c: '6',
+        },
+        correctAnswer: ''
+    },
+    {
+        question: "What is the purpose of oygen in your body",
+        answers: {
+            a: '3',
+            b: '5',
+            c: '6',
+        },
+        correctAnswer: ''
+    },
+    {
+        question: "What is the purpose of oygen in your body",
+        answers: {
+            a: '3',
+            b: '5',
+            c: '6',
+        },
+        correctAnswer: ''
+    },
+    {
+        question: "Which one is contained on every part of your body and every cell",
+        answers: {
+            a: '3',
+            b: 'DNA',
+            c: 'RNA',
+            d: ''
+        },
         correctAnswer: 'b'
+    },
+    {
+        question: "Which mineral mostly make up your teeth and bones",
+        answers: {
+            a: '3',
+            b: '5',
+            c: '6',
+        },
+        correctAnswer: ''
+    },
+    {
+        question: "Which mineral is made by your skin",
+        answers: {
+            a: '3',
+            b: '5',
+            c: '6',
+        },
+        correctAnswer: ''
+    },
+    {
+        question: "Why is the color of your blood red",
+        answers: {
+            a: '3',
+            b: '5',
+            c: '6',
+        },
+        correctAnswer: ''
+    },
+    {
+        question: "What does carbon dioxide in your body come from",
+        answers: {
+            a: '3',
+            b: '5',
+            c: '6',
+        },
+        correctAnswer: ''
     },
 
 ];
