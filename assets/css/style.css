@@ -4,6 +4,16 @@ body{
     font-family: sans-serif;
     color: #333;
 }
+
+/*...............home page...............*/
+
+.carousel-item {height: 300px;}
+
+.carousel-item img {background-size: cover;
+                    background-repeat:no-repeat; }
+
+/*............... page...............*/
+
 .question{
     font-weight: 600;
 }
