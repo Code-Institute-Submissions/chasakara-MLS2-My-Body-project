@@ -126,38 +126,39 @@ var myQuestions = [
     {
         question: "The spinal code is connected to which organ",
         answers: {
-            a: '3',
-            b: '5',
-            c: '6',
+            a: 'Heart',
+            b: 'Brain',
+            c: 'Pelvis',
         },
-        correctAnswer: ''
+        correctAnswer: 'b'
     },
     {
         question: "Which one does not happen to your body when you are cold",
         answers: {
-            a: '3',
-            b: '5',
-            c: '6',
+            a: 'High metabolism',
+            b: 'Sheavering',
+            c: 'Sweating',
         },
-        correctAnswer: ''
+        correctAnswer: 'c'
     },
     {
-        question: "What is the function of red blood cells",
+        question: "What is the function of heart",
         answers: {
-            a: '3',
-            b: '5',
-            c: '6',
+            a: 'Pumping waste',
+            b: 'Pumpimg air',
+            c: 'Pumping water',
+            d: 'Pumping blood',
         },
-        correctAnswer: ''
+        correctAnswer: 'd'
     },
     {
-        question: "What is the function of white blood cells",
+        question: "which cells are for immune system",
         answers: {
-            a: '3',
-            b: '5',
-            c: '6',
+            a: 'White blood cells',
+            b: 'Red blood cells',
+            c: 'Muscle Cells.',
         },
-        correctAnswer: ''
+        correctAnswer: 'a'
     },
     {
         question: "Which nutrient is not stored by your body",
@@ -171,120 +172,128 @@ var myQuestions = [
     {
         question: "When you exercise what do you burn",
         answers: {
-            a: '3',
-            b: '5',
-            c: '6',
+            a: 'Fats',
+            b: 'Proteins',
+            c: 'Vitamins',
+            d: 'Minerals'
         },
-        correctAnswer: ''
+        correctAnswer: 'a'
     },
     {
-        question: "What body organ do you use for sense of touch",
+        question: "How many kidneys do you have",
         answers: {
-            a: '3',
-            b: '5',
-            c: '6',
-        },
-        correctAnswer: ''
-    },
-    {
-        question: "What is the purpose of oygen in your body",
-        answers: {
-            a: '3',
-            b: '5',
-            c: '6',
-        },
-        correctAnswer: ''
-    },
-    {
-        question: "",
-        answers: {
-            a: '3',
-            b: '5',
-            c: '6',
-        },
-        correctAnswer: ''
-    },
-    {
-        question: "What is the purpose of oygen in your body",
-        answers: {
-            a: '3',
-            b: '5',
-            c: '6',
-        },
-        correctAnswer: ''
-    },
-    {
-        question: "What is the purpose of oygen in your body",
-        answers: {
-            a: '3',
-            b: '5',
-            c: '6',
-        },
-        correctAnswer: ''
-    },
-    {
-        question: "What is the purpose of oygen in your body",
-        answers: {
-            a: '3',
-            b: '5',
-            c: '6',
-        },
-        correctAnswer: ''
-    },
-    {
-        question: "What is the purpose of oygen in your body",
-        answers: {
-            a: '3',
-            b: '5',
-            c: '6',
-        },
-        correctAnswer: ''
-    },
-    {
-        question: "Which one is contained on every part of your body and every cell",
-        answers: {
-            a: '3',
-            b: 'DNA',
-            c: 'RNA',
-            d: ''
+            a: '1',
+            b: '2',
+            c: '3',
         },
         correctAnswer: 'b'
     },
     {
-        question: "Which mineral mostly make up your teeth and bones",
+        question: "What is the purpose of oygen in your body",
+        answers: {
+            a: 'Anabolism',
+            b: 'Reduction',
+            c: 'Catabolism',
+            
+        },
+        correctAnswer: 'c'
+    },
+    {
+        question: "Which one is not a function of the pancrease",
+        answers: {
+            a: 'Secrete enzymes',
+            b: 'Make hormones',
+            c: 'Produce insulin',
+            d: 'Produce salaiva',
+        },
+        correctAnswer: 'd'
+    },
+    {
+        question: "How many cerebral hemispheres does yor brain have",
+        answers: {
+            a: '2',
+            b: '5',
+            c: '3',
+            d: '4'
+        },
+        correctAnswer: 'a'
+    },
+    {
+        question: "Your heart is about the same size as your",
+        answers: {
+            a: 'Bicep',
+            b: 'Fist',
+            c: '2 biceps',
+            d: '2 fist',
+        },
+        correctAnswer: 'b'
+    },
+    {
+        question: "What causes flue",
+        answers: {
+            a: 'Germs',
+            b: 'Bacteria',
+            c: 'Virus',
+        },
+        correctAnswer: ''
+    },
+    {
+        question: "What is the purpose of oygen in your body",
         answers: {
             a: '3',
             b: '5',
             c: '6',
         },
         correctAnswer: ''
+    },
+    {
+        question: "What is DNA",
+        answers: {
+            a: 'Diribonucleic acid',
+            b: 'Deoxyribonucleic acid',
+            c: 'Dioxyribonucleic acid',
+            d: 'Doxyribonucleic acid'
+        },
+        correctAnswer: 'b'
+    },
+    {
+        question: "Which mineral gives teeth and bones and bones their hardness",
+        answers: {
+            a: 'Calcium',
+            b: 'Potassium',
+            c: 'Sodium',
+            d: 'Magnesium',
+        },
+        correctAnswer: 'a'
     },
     {
         question: "Which mineral is made by your skin",
         answers: {
-            a: '3',
-            b: '5',
-            c: '6',
+            a: 'D',
+            b: 'A',
+            c: 'E',
+            d: 'C'
         },
-        correctAnswer: ''
+        correctAnswer: 'd'
     },
     {
         question: "Why is the color of your blood red",
         answers: {
-            a: '3',
-            b: '5',
-            c: '6',
+            a: 'interaction between sodium and oxygen',
+            b: 'interaction between iron and carbon dioxide',
+            c: 'interaction between iron and oxygen',
+            d: 'interaction between sodium and carbon dioxide',
         },
-        correctAnswer: ''
+        correctAnswer: 'c'
     },
     {
-        question: "What does carbon dioxide in your body come from",
+        question: "Where does carbon dioxide in your body come from",
         answers: {
-            a: '3',
-            b: '5',
-            c: '6',
+            a: 'Metabolism',
+            b: 'Lungs',
+            c: 'Nose',
         },
-        correctAnswer: ''
+        correctAnswer: 'a'
     },
 
 ];
