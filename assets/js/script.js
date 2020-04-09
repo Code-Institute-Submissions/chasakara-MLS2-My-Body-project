@@ -2,29 +2,70 @@ var myQuestions = [
     {
         question: "How many senses do humans have",
         answers: {
-            a: '3',
-            b: '5',
+            a: '5',
+            b: '3',
             c: '6',
         },
-        correctAnswer: 'b'
+        correctAnswer: 'a'
     },
     {
         question: "What is the human body’s biggest organ",
         answers: {
             a: 'Lungs',
-            b: 'Liver',
-            c: 'Skin'
+            b: 'Skin',
+            c: 'Liver'
+        },
+        correctAnswer: 'b'
+    },
+    {
+        question: "What is the purpose of insulin in your body",
+        answers: {
+            a: 'Control blood sugar level',
+            b: 'Remove blood toxins',
+            c: 'Regulate water content in blood',
+        },
+        correctAnswer: 'a'
+    },
+    {
+        question: "What body organ do you use for sense of touch",
+        answers: {
+            a: 'Nose',
+            b: 'Skin',
+            c: 'Hand',
+            d: 'Eye',
         },
         correctAnswer: 'c'
     },
     {
-        question: "How many senses do humans have",
+        question: "Which one is not the function of liver",
         answers: {
-            a: '3',
-            b: '5',
-            c: '6',
+            a: 'Bile production and excretion',
+            b: 'Storage of glycogen, vitamins, and minerals.',
+            c: 'Hormones production',
+            d: 'Metabolism of fats, proteins, and carbohydrates.',
+            
+        },
+        correctAnswer: 'c'
+    },
+    {
+        question: "which one is not part of the eye?",
+        answers: {
+            a: 'Retina',
+            b: '',
+            c: 'Cornea',
+            d: 'Lens',
         },
         correctAnswer: 'b'
+    },
+    {
+        question: "Which part of the eye helps to focus light on the retina",
+        answers: {
+            a: 'Choroid',
+            b: 'Vitreous humour',
+            c: 'Iris',
+            d: 'Lens'
+        },
+        correctAnswer: 'd'
     },
     {
         question: "How many senses do humans have",
@@ -135,43 +176,7 @@ var myQuestions = [
         correctAnswer: 'b'
     },
     {
-        question: "How many senses do humans have",
-        answers: {
-            a: '3',
-            b: '5',
-            c: '6',
-        },
-        correctAnswer: 'b'
-    },
-    {
-        question: "How many senses do humans have",
-        answers: {
-            a: '3',
-            b: '5',
-            c: '6',
-        },
-        correctAnswer: 'b'
-    },
-    {
-        question: "How many senses do humans have",
-        answers: {
-            a: '3',
-            b: '5',
-            c: '6',
-        },
-        correctAnswer: 'b'
-    },
-    {
-        question: "How many senses do humans have",
-        answers: {
-            a: '3',
-            b: '5',
-            c: '6',
-        },
-        correctAnswer: 'b'
-    },
-    {
-        question: "How many senses do humans have",
+        question: "What body organ do you use for sense of touch",
         answers: {
             a: '3',
             b: '5',
