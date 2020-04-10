@@ -235,16 +235,16 @@ var myQuestions = [
             b: 'Bacteria',
             c: 'Virus',
         },
-        correctAnswer: ''
+        correctAnswer: 'c'
     },
     {
-        question: "What is the purpose of oygen in your body",
+        question: "Which joint on your body does 360 degrees turn",
         answers: {
-            a: '3',
-            b: '5',
-            c: '6',
+            a: 'Ball and Socket',
+            b: 'Hinge',
+            c: 'Saddle',
         },
-        correctAnswer: ''
+        correctAnswer: 'a'
     },
     {
         question: "What is DNA",
@@ -294,6 +294,189 @@ var myQuestions = [
             c: 'Nose',
         },
         correctAnswer: 'a'
+    },
+    {
+        question: "Another name for your voice box is",
+        answers: {
+            a: 'Glotis',
+            b: 'Pharynx',
+            c: 'Nose',
+            d: 'Larynx',
+        },
+        correctAnswer: 'd'
+    },
+    {
+        question: "Where in your body does digestion start",
+        answers: {
+            a: 'Stomach',
+            b: 'Large intestines',
+            c: 'Mouth',
+            d: 'Small intestines'
+        },
+        correctAnswer: 'c'
+    },
+    {
+        question: "Which of these muscles is the strongest",
+        answers: {
+            a: 'Jaw',
+            b: 'Biceps',
+            c: 'Buttocks',
+            d: 'Hamstrings',
+        },
+        correctAnswer: 'a'
+    },
+    {
+        question: "Where in the body is the smallest bone found",
+        answers: {
+            a: 'Feet',
+            b: 'Hand',
+            c: 'Mouth',
+            d: 'Ear'
+        },
+        correctAnswer: 'd'
+    },
+    {
+        question: "What connect your muscles to your bones",
+        answers: {
+            a: 'Tendons',
+            b: 'Ligaments',
+            c: 'Skin',
+            d: 'Cartilage'
+        },
+        correctAnswer: 'a'
+    },
+    {
+        question: "Where in your body does most digestion take place",
+        answers: {
+            a: 'Stomach',
+            b: 'Large intestines',
+            c: 'Mouth',
+            d: 'Small intestines'
+        },
+        correctAnswer: 'd'
+    },
+    {
+        question: "Which hormone is not present in female body",
+        answers: {
+            a: 'Progesterone',
+            b: 'Estrogen',
+            c: 'Testosterone',
+        },
+        correctAnswer: 'c'
+    },
+    {
+        question: "Which of these organs helps to purify blood?",
+        answers: {
+            a: 'Liver',
+            b: 'Kidney',
+            c: 'Lungs',
+        },
+        correctAnswer: 'b'
+    },
+    {
+        question: "Which of these organs can grow back again if some of it is removed?",
+        answers: {
+            a: 'Liver',
+            b: 'Kidney',
+            c: 'Heart',
+        },
+        correctAnswer: 'a'
+    },
+    {
+        question: "Where in the body are new blood cells made",
+        answers: {
+            a: 'Liver',
+            b: 'Bones',
+            c: 'Brain',
+            d: 'Heart'
+        },
+        correctAnswer: 'b'
+    },
+    {
+        question: "What is the function of neurons",
+        answers: {
+            a: 'Transmit information',
+            b: 'Process information',
+            c: 'Guard information',
+        },
+        correctAnswer: 'b'
+    },
+    {
+        question: "How many chamber(s) does your heart have",
+        answers: {
+            a: '1',
+            b: '6',
+            c: '4',
+            d: '8',
+        },
+        correctAnswer: 'c'
+    },
+    {
+        question: "What percentage of the your body is water?",
+        answers: {
+            a: '66%',
+            b: '75%',
+            c: '50%',
+            d: '30%',
+        },
+        correctAnswer: 'a'
+    },
+    {
+        question: "The outside layer of skin on the human body is called the",
+        answers: {
+            a: 'Hypodermis',
+            b: 'Epidermis',
+            c: 'Dermis',
+        },
+        correctAnswer: 'b'
+    },
+    {
+        question: "What is the name of the biggest part of the human brain",
+        answers: {
+            a: 'Cerebrum',
+            b: 'Cerebellum',
+            c: 'Basal ganglia',
+        },
+        correctAnswer: 'a'
+    },
+    {
+        question: "What is the heaviest organ in the human body",
+        answers: {
+            a: 'Heart',
+            b: 'Brain',
+            c: 'Liver',
+            d: 'Skin'
+        },
+        correctAnswer: ''
+    },
+    {
+        question: "Which type of joint is your shoulders and hips",
+        answers: {
+            a: 'Saddle',
+            b: 'Ball and Socket',
+            c: 'Hinge',
+        },
+        correctAnswer: 'b'
+    },
+    {
+        question: "How many teeth does an adult normally have",
+        answers: {
+            a: '48',
+            b: '38',
+            c: '32',
+            d: '24'
+        },
+        correctAnswer: 'c'
+    },
+    {
+        question: " The shape of DNA is known as",
+        answers: {
+            a: 'Single helix',
+            b: 'Double helix',
+            c: 'Triple helix',
+            d: 'Quad helix',
+        },
+        correctAnswer: 'b'
     },
 
 ];
@@ -385,7 +568,3 @@ function generateQuiz(questions, quizContainer, resultsContainer, submitButton){
     }
 
 }
-
-
-
-Resources
