@@ -1,17 +1,51 @@
 
-body{
-    font-family: sans-serif;
-    color: #333;
-}
+
+
+/*---------------------navbar styling--------------------*/
+
+.navbar {margin: 0 0;
+         background-color: white;}
+
+.navbar-brand img { height: 70px;
+                   width: 200px;
+                   border-radius: 3px;}
+
+.nav-items {display: block;
+            padding:0 5px; }
+
+.nav-items a {text-decoration: none;
+              display: block;
+              margin: 0 25px;
+              color: black;}
+
+.navbar-toggler-icon {background-color: white;
+                      border-radius: 5px;}
+
+.nav-items a:hover {color: rgb(20, 17, 170);}
 
 /*...............home page...............*/
 
+.table-heading {text-align: center;
+                margin:15px;}
+
+form {width: 300px;
+	  margin: 0 auto;
+      padding:0;}
+
+.carousel-text{transform: translate();
+               background: rgba(0, 0, 0, 0.4);}              
+
 .carousel-item {height: 300px;}
 
-.carousel-item img {
-                    background-repeat:no-repeat; }
+.carousel-item img {background-repeat:no-repeat; }
 
-/*............... page...............*/
+.form-control {width: 150px;}
+
+/*............... Play quiz page...............*/
+
+.playbgimge {background-image: url('https://i.dlpng.com/static/png/4551766-liver-stock-photography-anatomy-human-body-liver-png-download-human-liver-png-900_1020_preview.webp');
+             background-repeat: repeat;
+             }
 
 .question{
     font-weight: 600;
@@ -25,11 +59,42 @@ body{
     background-color: #297;
     color: #fff;
     border: 0px;
-    border-radius: 3px;
+    border-radius: 5px;
     padding: 20px;
     cursor: pointer;
     margin-bottom: 20px;
 }
 #submit:hover{
-    background-color: #3a8;
+    background-color: rgb(170, 79, 51);
 }
+
+/*-------------Modal Pop up------------*/
+
+.modal { display: none; 
+  position: fixed;
+  z-index: 1; 
+  padding-top: 100px; 
+  left: 0;
+  top: 0;
+  width: 100%; 
+  height: 100%; 
+  overflow: auto;
+  background-color: rgba(0,0,0,0.4);}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;}
+
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;}
+
+
+.close:hover, .close:focus {color: #000;
+                            text-decoration: none;
+                            cursor: pointer;}

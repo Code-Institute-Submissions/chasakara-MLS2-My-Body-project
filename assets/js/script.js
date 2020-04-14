@@ -274,7 +274,7 @@ var myQuestions = [
             c: 'E',
             d: 'C'
         },
-        correctAnswer: 'd'
+        correctAnswer: 'a'
     },
     {
         question: "Why is the color of your blood red",
@@ -399,7 +399,7 @@ var myQuestions = [
             b: 'Process information',
             c: 'Guard information',
         },
-        correctAnswer: 'b'
+        correctAnswer: 'a'
     },
     {
         question: "How many chamber(s) does your heart have",
@@ -447,7 +447,7 @@ var myQuestions = [
             c: 'Liver',
             d: 'Skin'
         },
-        correctAnswer: ''
+        correctAnswer: 'd'
     },
     {
         question: "Which type of joint is your shoulders and hips",
@@ -551,7 +551,7 @@ function generateQuiz(questions, quizContainer, resultsContainer, submitButton){
             // if answer is wrong or blank
             else{
                 // color the answers red
-                answerContainers[i].style.color = 'red';
+                answerContainers[i].style.text = 'Wrong answer! Try again';
             }
         }
 
