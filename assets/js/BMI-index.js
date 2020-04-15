@@ -1,25 +1,25 @@
 function mybutton(){
-$("#mybutton").on('click', function(){
-  var height=document.getElementById("height");  
-  var weist=document.getElementById("weist");  
-  var BMI=alert(weight/(height*height));  
- 
+$("#button").on('click', function(){
+  var height = document.getElementById("height").value;  
+  var weight = document.getElementById("weight").value;  
+  var result = document.getElementById("results")
+  var BMI = (weight/(height*height)); 
+  result.innerHTML = BMI;
+  
 if (BMI<=18.5){
 console.log("You are Underweight");
 }
-if ((BMI<=24.9) && (BMI>18.5)){
+else if ((BMI<=24.9) && (BMI>18.5)){
 console.log("You are Normal");
 }
-if ((BMI<=30) && (BMI>24.9)){
+else if ((BMI<=30) && (BMI>24.9)){
 console.log("You are Overweight");
 }
-if (BMI>30){
+else if (BMI>30){
 console.log("You are Obese");
 }
 })
 }
-
-
 // Get the modal
 var modal = document.getElementById("myModal");
 

@@ -60,14 +60,15 @@
       </div>
     </div>
   </div>
-  <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+  <a class="carousel-control-prev" href="#" role="button" data-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
     <span class="sr-only">Previous</span>
   </a>
-  <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+  <a class="carousel-control-next" href="#" role="button" data-slide="next">
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="sr-only">Next</span>
   </a>
+</div>
 </div>
 <div class="table-heading">
 <h5>Check out the relationship between your height and weight which is an indication of your healthy</h5>
@@ -88,15 +89,29 @@
          <td>Neck (cm):</td> <td><input type="number" id="neck" name="neck"></td><br>
         </tr>
         <tr>
-         <td><input type="button" value="Calculate"></td>
+         <td><input id="button" type="button" value="Calculate"></td>
         </tr>
        </table>
       </form>
 </div>
+<h2>BMI</h2>
+
+<!-- Trigger/Open The Modal -->
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <p>Some text in the Modal..</p>
+  </div>
 </div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js"></script>
+<script src="assets/js/script.js"></script>
+<script src="assets/js/BMI-index.js"></script>
 
 </body>
 </html>
