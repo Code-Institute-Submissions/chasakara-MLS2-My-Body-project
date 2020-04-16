@@ -71,7 +71,7 @@ var myQuestions = [
         question: "Which ons is not a function of the kidney",
         answers: {
             a: 'Controlling blood sugar level',
-            b: 'Controlling blood PRESSURE.',
+            b: 'Controlling blood pressure.',
             c: 'Controlling acid-base balance',
             d: 'Controlling water balance',
         },
@@ -175,7 +175,7 @@ var myQuestions = [
             a: 'Fats',
             b: 'Proteins',
             c: 'Vitamins',
-            d: 'Minerals'
+            d: 'Minerals',
         },
         correctAnswer: 'a'
     },
@@ -252,7 +252,7 @@ var myQuestions = [
             a: 'Diribonucleic acid',
             b: 'Deoxyribonucleic acid',
             c: 'Dioxyribonucleic acid',
-            d: 'Doxyribonucleic acid'
+            d: 'Doxyribonucleic acid',
         },
         correctAnswer: 'b'
     },
@@ -272,7 +272,7 @@ var myQuestions = [
             a: 'D',
             b: 'A',
             c: 'E',
-            d: 'C'
+            d: 'C',
         },
         correctAnswer: 'a'
     },
@@ -311,7 +311,7 @@ var myQuestions = [
             a: 'Stomach',
             b: 'Large intestines',
             c: 'Mouth',
-            d: 'Small intestines'
+            d: 'Small intestines',
         },
         correctAnswer: 'c'
     },
@@ -331,7 +331,7 @@ var myQuestions = [
             a: 'Feet',
             b: 'Hand',
             c: 'Mouth',
-            d: 'Ear'
+            d: 'Ear',
         },
         correctAnswer: 'd'
     },
@@ -341,7 +341,7 @@ var myQuestions = [
             a: 'Tendons',
             b: 'Ligaments',
             c: 'Skin',
-            d: 'Cartilage'
+            d: 'Cartilage',
         },
         correctAnswer: 'a'
     },
@@ -351,7 +351,7 @@ var myQuestions = [
             a: 'Stomach',
             b: 'Large intestines',
             c: 'Mouth',
-            d: 'Small intestines'
+            d: 'Small intestines',
         },
         correctAnswer: 'd'
     },
@@ -388,7 +388,7 @@ var myQuestions = [
             a: 'Liver',
             b: 'Bones',
             c: 'Brain',
-            d: 'Heart'
+            d: 'Heart',
         },
         correctAnswer: 'b'
     },
@@ -445,7 +445,7 @@ var myQuestions = [
             a: 'Heart',
             b: 'Brain',
             c: 'Liver',
-            d: 'Skin'
+            d: 'Skin',
         },
         correctAnswer: 'd'
     },
@@ -464,7 +464,7 @@ var myQuestions = [
             a: '48',
             b: '38',
             c: '32',
-            d: '24'
+            d: '24',
         },
         correctAnswer: 'c'
     },

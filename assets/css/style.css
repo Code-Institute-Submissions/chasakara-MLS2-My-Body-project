@@ -1,4 +1,6 @@
-
+body {margin: 0;
+      padding:0;
+      background-color: lightblue;}
 
 
 /*---------------------navbar styling--------------------*/
@@ -28,9 +30,9 @@
 .table-heading {text-align: center;
                 margin:15px;}
 
-form {width: 300px;
-	  margin: 0 auto;
-      padding:0;}
+.tabletable-centre {width: 300px;
+	                margin: 0 auto;
+                    padding:0;}
 
 .carousel-text{transform: translate();
                background: rgba(0, 0, 0, 0.4);}              
@@ -42,10 +44,6 @@ form {width: 300px;
 .form-control {width: 150px;}
 
 /*............... Play quiz page...............*/
-
-.playbgimge {background-image: url('https://i.dlpng.com/static/png/4551766-liver-stock-photography-anatomy-human-body-liver-png-download-human-liver-png-900_1020_preview.webp');
-             background-repeat: repeat;
-             }
 
 .question{
     font-weight: 600;
@@ -79,14 +77,18 @@ form {width: 300px;
   width: 100%; 
   height: 100%; 
   overflow: auto;
-  background-color: rgba(0,0,0,0.4);}
+  background-color: rgba(0,0,0,0.3);}
 
 .modal-content {
   background-color: #fefefe;
   margin: auto;
   padding: 20px;
-  border: 1px solid #808080;
-  width: 80%;}
+  width: 300px;
+  height: 300px;
+  transform: translate();
+  background: rgba(0, 0, 0, 0.4);
+  border: 3px dotted #808080;
+  }
 
 .close {
   color: #aaaaaa;
