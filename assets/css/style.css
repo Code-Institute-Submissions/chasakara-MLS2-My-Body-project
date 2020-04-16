@@ -30,9 +30,8 @@ body {margin: 0;
 .table-heading {text-align: center;
                 margin:15px;}
 
-.tabletable-centre {width: 300px;
-	                margin: 0 auto;
-                    padding:0;}
+.table-centre { margin-left:auto; 
+                     margin-right:auto;}
 
 .carousel-text{transform: translate();
                background: rgba(0, 0, 0, 0.4);}              
