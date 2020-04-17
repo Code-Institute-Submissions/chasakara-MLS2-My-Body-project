@@ -17,11 +17,11 @@ Mobile responsiveness
 
 #### Futures features
 
+
+
 #### User stories
 As a user l would want to know my body mass index
-
-As a user l would want to know my body face percentage 
-
+ 
 As a user l would want to know my if am underweight, normal, overweight or obese
 
 As a user l would want to know my if any healthy tips regarding my weight 
@@ -42,9 +42,23 @@ Bootstrap
 
 Javascript
 
+Jquery
+
 #### Testing
 
 #### Deployment
+
+Logged in to Github
+
+Navigated to the repository from the Github Dashboard
+
+Scrolled to the Settings icon and then down to the Github Pages section
+
+Under Source, clicked on the dropdown menu and selected Master Branch
+
+When Master Branch was selected, the page needed to be refreshed
+
+The link to website could then be found under the GitHub Pages section with the following text: "Your site is published at https://chasakara.github.io/MLS2-My-Body-project/
 
 #### Credits
 
