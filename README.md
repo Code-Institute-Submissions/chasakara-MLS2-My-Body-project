@@ -19,9 +19,13 @@ Mobile responsiveness
 
 #### User stories
 As a user l would want to know my body mass index
+
 As a user l would want to know my body face percentage 
+
 As a user l would want to know my if am underweight, normal, overweight or obese
+
 As a user l would want to know my if any healthy tips regarding my weight 
+
 As a user l would want to the quiz game to generate questions randomly
 
 #### Wire Frames
