@@ -45,13 +45,16 @@ body {margin: 0;
 
 .form-control {width: 150px;}
 
+/*............... What-is-it page...............*/
+
+.what-is-it {padding:10px}
+
 /*............... Play quiz page...............*/
 
-.question{
-    font-weight: 600;
+.question{font-weight: 600;
 }
-.answers {
-           margin-bottom: 10px;
+.answers {padding: 5px;
+          margin-bottom: 10px;
 }
 
 .answers label {display: block;}
@@ -74,6 +77,11 @@ body {margin: 0;
 .label {text-decoration: none;
               display: block;
         }
+
+ .results-total {background-color: gray;
+                color:white;
+                border-radius: 5px;} 
+
 /*-------------Modal Pop up------------*/
 
 .modal { display: none; 

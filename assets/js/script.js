@@ -551,7 +551,7 @@ function generateQuiz(questions, quizContainer, resultsContainer, submitButton){
             // if answer is wrong or blank
             else{
                 // color the answers red
-                answerContainers[i].style.text = 'Wrong answer! Try again';
+                answerContainers[i].style.color = 'red';
             }
         }
 
