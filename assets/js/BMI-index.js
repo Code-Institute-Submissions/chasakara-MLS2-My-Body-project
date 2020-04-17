@@ -18,8 +18,22 @@ function add() {
   var height = Number(document.getElementById('height').value);
   var weight = Number(document.getElementById('weight').value);
   var bmi = weight / (height * height);
-  document.getElementById('result').innerHTML = bmi
+  
+  if (bmi <= 18.5) {
+    document.write("You are Underweight");
+  }
+  else if ((bmi <= 24.9) && (bmi > 18.5)) {
+    document.write("Your Body mass index is bmi You are Normal");
+  }
+  else if ((bmi <= 30) && (bmi > 24.9)) {
+    document.write("You are Overweight");
+  }
+  else if (bmi > 30) {
+    document.write("You are Obese");
+  }
+document.getElementById('result').innerHTML = bmi
   return false;
+
 }
 document.getElementById('myBtn').addEventListener('click', add);
 
