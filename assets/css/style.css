@@ -5,18 +5,21 @@ body {margin: 0;
 
 /*---------------------navbar styling--------------------*/
 
-.navbar {margin: 0 0;
+.navbar {margin: 0;
+         padding: 0;
          background-color: white;}
 
-.navbar-brand img { height: 70px;
-                   width: 200px;
+.navbar-brand img { height: 50px;
+                    margin-left:3px;
+                    width: 170px;
                    border-radius: 3px;}
 
-.nav-items {display: block;
+.nav-item {display: block;
             padding:0 5px; }
 
-.nav-items a {text-decoration: none;
+.nav-item a {text-decoration: none;
               display: block;
+              font-size: 1.5em;
               margin: 0 25px;
               color: black;}
 
