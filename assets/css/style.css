@@ -7,12 +7,12 @@ body {margin: 0;
 
 .navbar {margin: 0;
          padding: 0;
-         background-color: white;}
+         background-color: black;}
 
-.navbar-brand img { height: 50px;
+.navbar-brand img { height: 40px;
                     margin-left:3px;
                     width: 170px;
-                   border-radius: 3px;}
+                    border-radius: 3px;}
 
 .nav-item {display: block;
             padding:0 5px; }
@@ -21,12 +21,20 @@ body {margin: 0;
               display: block;
               font-size: 1.5em;
               margin: 0 25px;
-              color: black;}
+              color: white;}
 
-.navbar-toggler-icon {background-color: white;
+.navbar-toggler-icon {background-color: rgb(235, 228, 228);
                       border-radius: 5px;}
 
-.nav-items a:hover {color: rgb(20, 17, 170);}
+.navbar-toggler-icon > i {color:black; 
+                          font-size:23px;}
+
+.nav-item a:hover {color:blue;
+                   font-size: 167%;}
+
+ .current {background-color: rgba(235, 228, 228, 0.822);
+          border-radius:8px;
+          margin:5px 0}
 
 /*...............home page...............*/
 
@@ -47,15 +55,15 @@ body {margin: 0;
 
 /*............... What-is-it page...............*/
 
-.what-is-it {padding:10px}
+.what-is-it {padding:10px;
+             background-color:pink;}
 
 /*............... Play quiz page...............*/
 
-.question{font-weight: 600;
-}
+.question{font-weight: 600;}
+
 .answers {padding: 5px;
-          margin-bottom: 10px;
-}
+          margin-bottom: 10px;}
 
 .answers label {display: block;}
 
@@ -70,17 +78,17 @@ body {margin: 0;
     cursor: pointer;
     margin-bottom: 20px;
 }
-#submit:hover{
-    background-color: rgb(170, 79, 51);
-}
+
+#submit:hover {background-color: rgb(170, 79, 51);}
 
 .label {text-decoration: none;
-              display: block;
-        }
+              display: block;}
 
  .results-total {background-color: gray;
                 color:white;
                 border-radius: 5px;} 
+
+
 
 /*-------------Modal Pop up------------*/
 
@@ -111,7 +119,6 @@ body {margin: 0;
   float: right;
   font-size: 28px;
   font-weight: bold;}
-
 
 .close:hover, .close:focus {color: #000;
                             text-decoration: none;
