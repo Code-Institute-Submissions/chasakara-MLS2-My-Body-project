@@ -110,7 +110,7 @@
         "answers": {
             "a": "Esophagus",
             "b": "Larynx",
-            "c": "Pharynx",
+            "c": "Pharynx"
         },
         "correctAnswer": "b"
     },
@@ -137,7 +137,7 @@
         "answers": {
             "a": "High metabolism",
             "b": "Sheavering",
-            "c": "Sweating",
+            "c": "Sweating"
         },
         "correctAnswer": "c"
     },
@@ -252,7 +252,7 @@
             "a": "Diribonucleic acid",
             "b": "Deoxyribonucleic acid",
             "c": "Dioxyribonucleic acid",
-            "d": "Doxyribonucleic acid",
+            "d": "Doxyribonucleic acid"
         },
         "correctAnswer": "b"
     },
@@ -282,7 +282,7 @@
             "a": "interaction between sodium and oxygen",
             "b": "interaction between iron and carbon dioxide",
             "c": "interaction between iron and oxygen",
-            "d": "interaction between sodium and carbon dioxide",
+            "d": "interaction between sodium and carbon dioxide"
         },
         "correctAnswer": "c"
     },
