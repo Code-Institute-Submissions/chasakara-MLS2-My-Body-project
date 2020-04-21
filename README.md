@@ -15,7 +15,8 @@ correct
 ## UX
 
 This site is for any adult who want to have a simple check on their healthy by simply 
-entering their height, weight, weist and neck values
+entering their height, weight, weist and neck values, they get a value which is show 
+if are underweight,normal, overweight or obese and then they will be given healthy tips on how to stay healthy 
 
 ## User stories
 As a user l would want to know my body mass index
@@ -27,9 +28,13 @@ As a user l would want to know any healthy tips regarding my body mass index
 As a user l would want to play the quiz
 
 ## Features
-Landing page 
-Play quiz page 
-Mobile responsiveness
+
+Calculate button - When clicked makes the moadsal to pop up
+
+Modal - It pops out when the calculate button is pressed showing BMI and healthy tips 
+
+Get results button - When clicked it shows the users total scores of the answers they 
+got correct agani
 
 ### Existing features
 
@@ -43,15 +48,16 @@ making the table to get values
 
 #### Technologies Used 
 
-CSS
+[HTML] - 
 
-HTML
+[CSS] - 
 
-Bootstrap
+[Bootstrap](https://getbootstrap.com/)
 
 Javascript
 
-Jquery
+[Jquery](https://jquery.com/) -
+The project uses JQuery to simplify DOM manipulation
 
 #### Testing
 
