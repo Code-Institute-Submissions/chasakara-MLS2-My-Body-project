@@ -60,7 +60,16 @@ that moves, refreshes, or otherwise changes on your screen without requiring you
 [Jquery](https://jquery.com/) -
 The project uses JQuery to simplify DOM manipulation
 
-#### Testing
+### Testing
+
+input values were put into the input field and if the value is not a number 
+nothing will be inputed but if the value is a number it will be inputed. After 
+the input field had data of numbers the and calculate button is then clicked and it 
+returned a value inside the modal that that shows the users body mass and healthy tips.
+On the radio button when clicked it responded well and when the get result button was 
+clicked it responded as intended by showing the total score of the user aganist total 
+number of questions 
+
 
 #### Deployment
 
