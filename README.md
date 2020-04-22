@@ -29,11 +29,11 @@ As a user l would want to play the quiz
 
 ## Features
 
-Calculate button - When clicked makes the moadsal to pop up
+**Calculate** button - When clicked makes the moadsal to pop up
 
-Modal - It pops out when the calculate button is pressed showing BMI and healthy tips 
+**Modal** - It pops out when the calculate button is pressed showing BMI and healthy tips 
 
-Get results button - When clicked it shows the users total scores of the answers they 
+**Get results** button - When clicked it shows the users total scores of the answers they 
 got correct agani
 
 ### Existing features
@@ -48,13 +48,14 @@ making the table to get values
 
 #### Technologies Used 
 
-[HTML] - 
+[HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) - Is the standard markup language for documents designed to be displayed in a web browser. 
 
-[CSS] - 
+[CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) - It describes how HTML elements are to be displayed on screen, paper, or in other media. CSS saves a lot of work. It can control the layout of multiple web pages all at once
 
-[Bootstrap](https://getbootstrap.com/)
+[Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) -  Is a scripting language used to create and control dynamic website content, i.e. anything 
+that moves, refreshes, or otherwise changes on your screen without requiring you to manually reload a web page.
 
-Javascript
+[Bootstrap](https://getbootstrap.com/) - Is a framework to help you design websites faster and easier. It includes HTML and CSS based design templates
 
 [Jquery](https://jquery.com/) -
 The project uses JQuery to simplify DOM manipulation
