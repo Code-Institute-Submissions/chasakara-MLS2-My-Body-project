@@ -24,7 +24,7 @@ fetch("quiz.json")
     console.error(err);
   });
 
-startGame = () => {
+function startGame() {
   questionCounter = 0;
   score = 0;
   availableQuesions = [...questions];
