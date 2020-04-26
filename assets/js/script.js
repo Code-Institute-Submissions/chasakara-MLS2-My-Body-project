@@ -10,8 +10,6 @@ let acceptingAnswers = false;
 let score = 0;
 let questionCounter = 0;
 let availableQuesions = [];
-
-
 let questions = [];
 
 fetch("quiz.json")
@@ -19,7 +17,6 @@ fetch("quiz.json")
     return res.json();
   })
   .then(loadedQuestions => {
-    console.log(loadedQuestions);
     questions = loadedQuestions;
     startGame();
   })
@@ -41,8 +38,6 @@ getNewQuestion = () => {
   }
   questionCounter++;
   progressText.innerText = `Question ${questionCounter}/${maxQuestions}`;
-  //Update the progress bar
-  progressBarFull.style.width = `${(questionCounter / maxQuestions) * 100}%`;
 
   const questionIndex = Math.floor(Math.random() * availableQuesions.length);
   currentQuestion = availableQuesions[questionIndex];
