@@ -20,16 +20,16 @@ function add() {
   var bmi = weight / (height * height);
   
   if (bmi <= 18.5) {
-    document.write("You are Underweight");
-  }
+    console.log('Your Body mass index is:',+ bmi  +  'You are Underweight');
+   }
   else if ((bmi <= 24.9) && (bmi > 18.5)) {
-    document.write("Your Body mass index is bmi You are Normal");
+    console.log('Your Body mass index is:',+ bmi  +  'You are Normal');
   }
   else if ((bmi <= 30) && (bmi > 24.9)) {
-    document.write("You are Overweight");
+   console.log('Your Body mass index is:',+  bmi  +  'You are Overweight');
   }
   else if (bmi > 30) {
-    document.write("You are Obese");
+    console.log('Your Body mass index is:',+ bmi  +  'You are Obese');
   }
 document.getElementById('result').innerHTML = bmi
   return false;

@@ -29,14 +29,15 @@ As a user l would want to play the quiz
 
 ## Features
 
+### Existing features 
+
 **Calculate** button - When clicked makes the moadsal to pop up
 
 **Modal** - It pops out when the calculate button is pressed showing BMI and healthy tips 
 
 **Get results** button - When clicked it shows the users total scores of the answers they 
-got correct agani
+                got correct agani
 
-### Existing features
 
 ### Future features
 
@@ -71,7 +72,7 @@ clicked it responded as intended by showing the total score of the user aganist 
 number of questions 
 
 
-#### Deployment
+## Deployment
 
 Logged in to Github
 
@@ -85,5 +86,11 @@ When Master Branch was selected, the page needed to be refreshed
 
 The link to website could then be found under the GitHub Pages section with the following text: "Your site is published at https://chasakara.github.io/MLS2-My-Body-project/
 
-#### Credits
+## Credits
+
+### Content 
+
+### Media 
+
+### Acknoledgements 
 

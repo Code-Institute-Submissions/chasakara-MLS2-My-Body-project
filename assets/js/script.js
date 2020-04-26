@@ -1,131 +1,87 @@
+const question = document.getElementById("question");
+const options = Array.from(document.getElementsByClassName("option-text"));
+const progressText = document.getElementById("progressText");
+const scoreText = document.getElementById("score");
+const progressBarFull = document.getElementById("progressBarFull");
+const bonus = 10;
+const maxQuestions = 5;
+let currentQuestion = {};
+let acceptingAnswers = false;
+let score = 0;
+let questionCounter = 0;
+let availableQuesions = [];
 
-var quizContainer = document.getElementById('quiz');
-var resultsContainer = document.getElementById('results');
-var submitButton = document.getElementById('submit');
 
-var step = 0;
-var selection;
-var selectedQuestions = [];
-var chances = 3;
+let questions = [];
 
-var output = JSON.parse(localStorage.getItem('quiz')) || [];
+fetch("quiz.json")
+  .then(res => {
+    return res.json();
+  })
+  .then(loadedQuestions => {
+    console.log(loadedQuestions);
+    questions = loadedQuestions;
+    startGame();
+  })
+  .catch(err => {
+    console.error(err);
+  });
 
+startGame = () => {
+  questionCounter = 0;
+  score = 0;
+  availableQuesions = [...questions];
+  getNewQuestion();
+};
 
-function generateUnique() {
-    const uniques = chance.unique(chance.natural, 12, {
-        min: 1,
-        max: 547,
-    });
-    return uniques;
-}
+getNewQuestion = () => {
+  if (availableQuesions.length === 0 || questionCounter >= maxQuestions) {
+    localStorage.setItem("mostRecentScore", score);
+    
+  }
+  questionCounter++;
+  progressText.innerText = `Question ${questionCounter}/${maxQuestions}`;
+  //Update the progress bar
+  progressBarFull.style.width = `${(questionCounter / maxQuestions) * 100}%`;
 
-$(function() {
-    const xhr = new XMLHttpRequest();
-    const url = 'quiz.json';
+  const questionIndex = Math.floor(Math.random() * availableQuesions.length);
+  currentQuestion = availableQuesions[questionIndex];
+  question.innerText = currentQuestion.question;
 
-    xhr.onreadystatechange = function() {
-        if (this.readyState == 4 && this.status == 200) {
-            let fullSetQuestions = JSON.parse(this.responseText);
-            loadQuestions(fullSetQuestions);
-            $('#game-screen').hide();
-            $('#gameOverWindow').modal('hide');
-            $('.answer-button').removeClass('wrong-answer correct-answer');
-        }
+  options.forEach(option => {
+    const number = option.dataset["number"];
+    option.innerText = currentQuestion["option" + number];
+  });
 
-    };
-    xhr.open('GET', url, true);
-    xhr.send();
+  availableQuesions.splice(questionIndex, 1);
+  acceptingAnswers = true;
+};
 
+options.forEach(option => {
+  option.addEventListener("click", e => {
+    if (!acceptingAnswers) return;
+
+    acceptingAnswers = false;
+    const selectedOption = e.target;
+    const selectedAnswer = selectedOption.dataset["number"];
+
+    const classToApply =
+      selectedAnswer == currentQuestion.correctAnswer ? "correct" : "incorrect";
+
+    if (classToApply === "correct") {
+      incrementScore(bonus);
+    }
+
+    selectedOption.parentElement.classList.add(classToApply);
+
+    setTimeout(() => {
+      selectedOption.parentElement.classList.remove(classToApply);
+      getNewQuestion();
+    }, 1000);
+  });
 });
 
-function loadQuestions(fullSet) {
-    const gameQuestionNumbers = generateUnique();
-    selectedQuestions = gameQuestionNumbers.map(numbers => fullSet[numbers]);
-    console.log(selectedQuestions);
-    return selectedQuestions;
-}
-
-
-generateQuiz(myQuestions, quizContainer, resultsContainer, submitButton);
-
-function generateQuiz(questions, quizContainer, resultsContainer, submitButton){
-
-    function showQuestions(questions, quizContainer){
-        // we'll need a place to store the output and the answer choices
-        var output = [];
-        var answers;
-
-        // for each question...
-        for(var i=0; i<questions.length; i++){
-            
-            // first reset the list of answers
-            answers = [];
-
-            // for each available answer...
-            for(letter in questions[i].answers){
-
-                // ...add an html radio button
-                answers.push(
-                    '<label>'
-                        + '<input type="radio" name="question'+i+'" value="'+letter+'">'
-                        + letter + ': '
-                        + questions[i].answers[letter]
-                    + '</label>'
-                );
-            }
-
-            // add this question and its answers to the output
-            output.push(
-                '<div class="question">' + questions[i].question + '</div>'
-                + '<div class="answers">' + answers.join('') + '</div>'
-            );
-        }
-
-        // finally combine our output list into one string of html and put it on the page
-        quizContainer.innerHTML = output.join('');
-    }
-
-
-    function showResults(questions, quizContainer, resultsContainer){
-        
-        // gather answer containers from our quiz
-        var answerContainers = quizContainer.querySelectorAll('.answers');
-        
-        // keep track of user's answers
-        var userAnswer = '';
-        var numCorrect = 0;
-        
-        // for each question...
-        for(var i=0; i<questions.length; i++){
-
-            // find selected answer
-            userAnswer = (answerContainers[i].querySelector('input[name=question'+i+']:checked')||{}).value;
-            
-            // if answer is correct
-            if(userAnswer===questions[i].correctAnswer){
-                // add to the number of correct answers
-                numCorrect++;
-                
-                // color the answers green
-                answerContainers[i].style.color = 'green';
-            }
-            // if answer is wrong or blank
-            else{
-                // color the answers red
-                answerContainers[i].style.color = 'red';
-            }
-        }
-
-        // show number of correct answers out of total
-        resultsContainer.innerHTML = numCorrect + ' out of ' + questions.length;
-    }
-
-    // show questions right away
-    showQuestions(questions, quizContainer);
-    
-    // on submit, show results
-    submitButton.onclick = function(){
-        showResults(questions, quizContainer, resultsContainer);
-    }
-
-}
+incrementScore = num => {
+  score += num;
+  scoreText.innerText = score;
+};

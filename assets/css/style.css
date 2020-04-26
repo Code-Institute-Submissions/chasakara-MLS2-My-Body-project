@@ -70,7 +70,6 @@ body {margin: 0;
 .answers label {display: block;}
 
 #submit{
-    font-family: sans-serif;
     font-size: 20px;
     background-color: #297;
     color: #fff;
@@ -109,17 +108,18 @@ body {margin: 0;
   background-color: #fefefe;
   margin: auto;
   padding: 20px;
-  width: 300px;
-  height: 300px;
+  color: white;;
+  width: 500px;
+  height: 120px;
   transform: translate();
-  background: rgba(0, 0, 0, 0.4);
-  border: 3px dotted #808080;
+  background: rgb(17, 17, 17);
+  border: 3px solid black;
   }
 
 .close {
   color: #aaaaaa;
   float: right;
-  font-size: 28px;
+  font-size: 13px;
   font-weight: bold;}
 
 .close:hover, .close:focus {color: #000;

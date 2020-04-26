@@ -1,483 +1,406 @@
 [
-    {
-        "question": "How many senses do humans have",
-        "answers": {
-            "a": "5",
-            "b": "3",
-            "c": "6"
-        },
-        "correctAnswer": "a"
-    },
-    {
-        "question": "What is the human body's biggest organ",
-        "answers": {
-            "a": "Lungs",
-            "b": "Skin",
-            "c": "Liver"
-        },
-        "correctAnswer": "b"
-    },
-    {
-        "question": "What is the purpose of insulin in your body",
-        "answers": {
-            "a": "Control blood sugar level",
-            "b": "Remove blood toxins",
-            "c": "Regulate water content in blood"
-        },
-        "correctAnswer": "a"
-    },
-    {
-        "question": "What body organ do you use for sense of touch",
-        "answers": {
-            "a": "Nose",
-            "b": "Skin",
-            "c": "Hand",
-            "d": "Eye"
-        },
-        "correctAnswer": "c"
-    },
-    {
-        "question": "Which one is not the function of liver",
-        "answers": {
-            "a": "Bile production and excretion",
-            "b": "Storage of glycogen, vitamins, and minerals.",
-            "c": "Hormones production",
-            "d": "Metabolism of fats, proteins, and carbohydrates."
-            
-        },
-        "correctAnswer": "c"
-    },
-    {
-        "question": "which one is not part of the eye?",
-        "answers": {
-            "a": "Retina",
-            "b": "Cerebrum",
-            "c": "Cornea",
-            "d": "Lens"
-        },
-        "correctAnswer": "b"
-    },
-    {
-        "question": "Which part of the eye helps to focus light on the retina",
-        "answers": {
-            "a": "Choroid",
-            "b": "Vitreous humour",
-            "c": "Iris",
-            "d": "Lens"
-        },
-        "correctAnswer": "d"
-    },
-    {
-        "question": "Which ons is not a function of the kidney",
-        "answers": {
-            "a": "Controlling blood sugar level",
-            "b": "Controlling blood pressure.",
-            "c": "Controlling acid-base balance",
-            "d": "Controlling water balance"
-        },
-        "correctAnswer": "a"
-    },
-    {
-        "question": "Which material is your hair and nails made from",
-        "answers": {
-            "a": "Sodium",
-            "b": "Keratin",
-            "c": "Calcium"
-        },
-        "correctAnswer": "b"
-    },
-    {
-        "question": "Which part of your eye respond to light",
-        "answers": {
-            "a": "Pupil",
-            "b": "Cornea",
-            "c": "Retina"
-        },
-        "correctAnswer": "c"
-    },
-    {
-        "question": "How many bones does an adult human have",
-        "answers": {
-            "a": "270",
-            "b": "215",
-            "c": "233",
-            "d": "206"
-        },
-        "correctAnswer": "d"
-    },
-    {
-        "question": "Which part your body produces sound",
-        "answers": {
-            "a": "Esophagus",
-            "b": "Larynx",
-            "c": "Pharynx"
-        },
-        "correctAnswer": "b"
-    },
-    {
-        "question": "What is the purpose of the spinal code",
-        "answers": {
-            "a": "It protects your back",
-            "b": "It give you balance when you are standing up",
-            "c": "It connects a large part of the peripheral nervous system to the brain"
-        },
-        "correctAnswer": "c"
-    },
-    {
-        "question": "The spinal code is connected to which organ",
-        "answers": {
-            "a": "Heart",
-            "b": "Brain",
-            "c": "Pelvis"
-        },
-        "correctAnswer": "b"
-    },
-    {
-        "question": "Which one does not happen to your body when you are cold",
-        "answers": {
-            "a": "High metabolism",
-            "b": "Sheavering",
-            "c": "Sweating"
-        },
-        "correctAnswer": "c"
-    },
-    {
-        "question": "What is the function of heart",
-        "answers": {
-            "a": "Pumping waste",
-            "b": "Pumping air",
-            "c": "Pumping water",
-            "d": "Pumping blood"
-        },
-        "correctAnswer": "d"
-    },
-    {
-        "question": "which cells are for immune system",
-        "answers": {
-            "a": "White blood cells",
-            "b": "Red blood cells",
-            "c": "Muscle Cells."
-        },
-        "correctAnswer": "a"
-    },
-    {
-        "question": "Which nutrient is not stored by your body",
-        "answers": {
-            "a": "Fat",
-            "b": "Protein",
-            "c": "Carbohydrates"
-        },
-        "correctAnswer": "b"
-    },
-    {
-        "question": "When you exercise what do you burn",
-        "answers": {
-            "a": "Fats",
-            "b": "Proteins",
-            "c": "Vitamins",
-            "d": "Minerals"
-        },
-        "correctAnswer": "a"
-    },
-    {
-        "question": "How many kidneys do you have",
-        "answers": {
-            "a": "1",
-            "b": "2",
-            "c": "3"
-        },
-        "correctAnswer": "b"
-    },
-    {
-        "question": "What is the purpose of oygen in your body",
-        "answers": {
-            "a": "Anabolism",
-            "b": "Reduction",
-            "c": "Catabolism"
-            
-        },
-        "correctAnswer": "c"
-    },
-    {
-        "question": "Which one is not a function of the pancrease",
-        "answers": {
-            "a": "Secrete enzymes",
-            "b": "Make hormones",
-            "c": "Produce insulin",
-            "d": "Produce salaiva"
-        },
-        "correctAnswer": "d"
-    },
-    {
-        "question": "How many cerebral hemispheres does yor brain have",
-        "answers": {
-            "a": "2",
-            "b": "5",
-            "c": "3",
-            "d": "4"
-        },
-        "correctAnswer": "a"
-    },
-    {
-        "question": "Your heart is about the same size as your",
-        "answers": {
-            "a": "Bicep",
-            "b": "Fist",
-            "c": "2 biceps",
-            "d": "2 fist"
-        },
-        "correctAnswer": "b"
-    },
-    {
-        "question": "What causes flue",
-        "answers": {
-            "a": "Germs",
-            "b": "Bacteria",
-            "c": "Virus"
-        },
-        "correctAnswer": "c"
-    },
-    {
-        "question": "Which joint on your body does 360 degrees turn",
-        "answers": {
-            "a": "Ball and Socket",
-            "b": "Hinge",
-            "c": "Saddle"
-        },
-        "correctAnswer": "a"
-    },
-    {
-        "question": "What is DNA",
-        "answers": {
-            "a": "Diribonucleic acid",
-            "b": "Deoxyribonucleic acid",
-            "c": "Dioxyribonucleic acid",
-            "d": "Doxyribonucleic acid"
-        },
-        "correctAnswer": "b"
-    },
-    {
-        "question": "Which mineral gives teeth and bones and bones their hardness",
-        "answers": {
-            "a": "Calcium",
-            "b": "Potassium",
-            "c": "Sodium",
-            "d": "Magnesium"
-        },
-        "correctAnswer": "a"
-    },
-    {
-        "question": "Which mineral is made by your skin",
-        "answers": {
-            "a": "D",
-            "b": "A",
-            "c": "E",
-            "d": "C"
-        },
-        "correctAnswer": "a"
-    },
-    {
-        "question": "Why is the color of your blood red",
-        "answers": {
-            "a": "interaction between sodium and oxygen",
-            "b": "interaction between iron and carbon dioxide",
-            "c": "interaction between iron and oxygen",
-            "d": "interaction between sodium and carbon dioxide"
-        },
-        "correctAnswer": "c"
-    },
-    {
-        "question": "Where does carbon dioxide in your body come from",
-        "answers": {
-            "a": "Metabolism",
-            "b": "Lungs",
-            "c": "Nose"
-        },
-        "correctAnswer": "a"
-    },
-    {
-        "question": "Another name for your voice box is",
-        "answers": {
-            "a": "Glotis",
-            "b": "Pharynx",
-            "c": "Nose",
-            "d": "Larynx"
-        },
-        "correctAnswer": "d"
-    },
-    {
-        "question": "Where in your body does digestion start",
-        "answers": {
-            "a": "Stomach",
-            "b": "Large intestines",
-            "c": "Mouth",
-            "d": "Small intestines"
-        },
-        "correctAnswer": "c"
-    },
-    {
-        "question": "Which of these muscles is the strongest",
-        "answers": {
-            "a": "Jaw",
-            "b": "Biceps",
-            "c": "Buttocks",
-            "d": "Hamstrings"
-        },
-        "correctAnswer": "a"
-    },
-    {
-        "question": "Where in the body is the smallest bone found",
-        "answers": {
-            "a": "Feet",
-            "b": "Hand",
-            "c": "Mouth",
-            "d": "Ear"
-        },
-        "correctAnswer": "d"
-    },
-    {
-        "question": "What connect your muscles to your bones",
-        "answers": {
-            "a": "Tendons",
-            "b": "Ligaments",
-            "c": "Skin",
-            "d": "Cartilage"
-        },
-        "correctAnswer": "a"
-    },
-    {
-        "question": "Where in your body does most digestion take place",
-        "answers": {
-            "a": "Stomach",
-            "b": "Large intestines",
-            "c": "Mouth",
-            "d": "Small intestines"
-        },
-        "correctAnswer": "d"
-    },
-    {
-        "question": "Which hormone is not present in female body",
-        "answers": {
-            "a": "Progesterone",
-            "b": "Estrogen",
-            "c": "Testosterone"
-        },
-        "correctAnswer": "c"
-    },
-    {
-        "question": "Which of these organs helps to purify blood?",
-        "answers": {
-            "a": "Liver",
-            "b": "Kidney",
-            "c": "Lungs"
-        },
-        "correctAnswer": "b"
-    },
-    {
-        "question": "Which of these organs can grow back again if some of it is removed?",
-        "answers": {
-            "a": "Liver",
-            "b": "Kidney",
-            "c": "Heart"
-        },
-        "correctAnswer": "a"
-    },
-    {
-        "question": "Where in the body are new blood cells made",
-        "answers": {
-            "a": "Liver",
-            "b": "Bones",
-            "c": "Brain",
-            "d": "Heart"
-        },
-        "correctAnswer": "b"
-    },
-    {
-        "question": "What is the function of neurons",
-        "answers": {
-            "a": "Transmit information",
-            "b": "Process information",
-            "c": "Guard information"
-        },
-        "correctAnswer": "a"
-    },
-    {
-        "question": "How many chamber(s) does your heart have",
-        "answers": {
-            "a": "1",
-            "b": "6",
-            "c": "4",
-            "d": "8"
-        },
-        "correctAnswer": "c"
-    },
-    {
-        "question": "What percentage of the your body is water?",
-        "answers": {
-            "a": "66%",
-            "b": "75%",
-            "c": "50%",
-            "d": "30%"
-        },
-        "correctAnswer": "a"
-    },
-    {
-        "question": "The outside layer of skin on the human body is called the ?",
-        "answers": {
-            "a": "Hypodermis",
-            "b": "Epidermis",
-            "c": "Dermis"
-        },
-        "correctAnswer": "b"
-    },
-    {
-        "question": "What is the name of the biggest part of the human brain",
-        "answers": {
-            "a": "Cerebrum",
-            "b": "Cerebellum",
-            "c": "Basal ganglia"
-        },
-        "correctAnswer": "a"
-    },
-    {
-        "question": "What is the heaviest organ in the human body",
-        "answers": {
-            "a": "Heart",
-            "b": "Brain",
-            "c": "Liver",
-            "d": "Skin"
-        },
-        "correctAnswer": "d"
-    },
-    {
-        "question": "Which type of joint is your shoulders and hips",
-        "answers": {
-            "a": "Saddle",
-            "b": "Ball and Socket",
-            "c": "Hinge"
-        },
-        "correctAnswer": "b"
-    },
-    {
-        "question": "How many teeth does an adult normally have",
-        "answers": {
-            "a": "48",
-            "b": "38",
-            "c": "32",
-            "d": "24"
-        },
-        "correctAnswer": "c"
-    },
-    {
-        "question": " The shape of DNA is known as",
-        "answers": {
-            "a": "Single helix",
-            "b": "Double helix",
-            "c": "Triple helix",
-            "d": "Quad helix"
-        },
-        "correctAnswer": "b"
-    }
- 
+  {
+      "question": "How many senses do humans have",
+          "option1": "5",
+          "option2": "3",
+          "option3": "6",
+          "option4": "8",
+      "correctAnswer": 1
+  },
+  {
+      "question": "What is the human body's biggest organ",
+         "option1": "Lungs",
+          "option2": "Skin",
+          "option3": "Liver",
+          "option4": "Kidneys",
+      "correctAnswer": 2
+  },
+  {
+      "question": "What is the purpose of insulin in your body",
+          "option1": "Control blood sugar level",
+          "option2": "Remove blood toxins",
+          "option3": "Regulate water content in blood",
+          "option4": "Regulate hormones",
+      "correctAnswer": 1
+  },
+  {
+      "question": "What body organ do you use for sense of touch",
+          "option1": "Nose",
+          "option2": "Skin",
+          "option3": "Hand",
+          "option4": "Eye",
+      "correctAnswer": 3
+  },
+  {
+      "question": "Which one is not the function of liver",
+          "option1": "Bile production and excretion",
+          "option2": "Storage of glycogen, vitamins, and minerals.",
+          "option3": "Hormones production",
+          "option4": "Metabolism of fats, proteins, and carbohydrates.",
+      "correctAnswer": 3
+  },
+  {
+      "question": "which one is not part of the eye?",
+          "option1": "Retina",
+          "option2": "Cerebrum",
+          "option3": "Cornea",
+          "option4": "Lens",
+      "correctAnswer": 2
+  },
+  {
+      "question": "Which part of the eye helps to focus light on the retina",
+          "option1": "Choroid",
+          "option2": "Vitreous humour",
+          "option3": "Iris",
+          "option4": "Lens",
+      "correctAnswer": 4
+  },
+  {
+      "question": "Which ons is not a function of the kidney",
+          "option1": "Controlling blood sugar level",
+          "option2": "Controlling blood pressure.",
+          "option3": "Controlling acid-base balance",
+          "option4": "Controlling water balance",
+      "correctAnswer": 1
+  },
+  {
+      "question": "Which material is your hair and nails made from",
+          "option1": "Sodium",
+          "option2": "Keratin",
+          "option3": "Calcium",
+          "option4": "Potassium",
+      "correctAnswer": 2
+  },
+  {
+      "question": "Which part of your eye respond to light",
+          "option1": "Pupil",
+          "option2": "Cornea",
+          "option3": "Retina",
+          "option4": "Iris",
+      "correctAnswer": 3
+  },
+  {
+      "question": "How many bones does an adult human have",
+          "option1": "270",
+          "option2": "215",
+          "option3": "233",
+          "option4": "206",
+      "correctAnswer": 4
+  },
+  {
+      "question": "Which part your body produces sound",
+          "option1": "Esophagus",
+          "option2": "Larynx",
+          "option3": "Pharynx",
+          "option4": "Mouth",
+      "correctAnswer": 2
+  },
+  {
+      "question": "What is the purpose of the spinal code",
+          "option1": "It protects your back",
+          "option2": "It give you balance when you are standing up",
+          "option3": "It connects a large part of the peripheral nervous system to the brain",
+          "option4": "It make white blood cells",
+      "correctAnswer": 3
+  },
+  {
+      "question": "The spinal code is connected to which organ",
+          "option1": "Heart",
+          "option2": "Brain",
+          "option3": "Pelvis",
+          "option4": "Neck",
+      "correctAnswer": 2
+  },
+  {
+      "question": "Which one does not happen to your body when you are cold",
+          "option1": "High metabolism",
+          "option2": "Sheavering",
+          "option3": "Sweating",
+          "option4": "Blood vessels constrict",
+      "correctAnswer": 3
+  },
+  {
+      "question": "What is the function of heart",
+          "option1": "Pumping waste",
+          "option2": "Pumping air",
+          "option3": "Pumping water",
+          "option4": "Pumping blood",
+      "correctAnswer": 4
+  },
+  {
+      "question": "which cells are for immune system",
+          "option1": "White blood cells",
+          "option2": "Red blood cells",
+          "option3": "Muscle Cells.",
+          "option4": "Platelets",
+      "correctAnswer": 1
+  },
+  {
+      "question": "Which nutrient is not stored by your body",
+          "option1": "Fat",
+          "option2": "Protein",
+          "option3": "Carbohydrates",
+          "option4": "Vitamins",
+      "correctAnswer": 2
+  },
+  {
+      "question": "When you exercise what do you burn",
+          "option1": "Fats",
+          "option2": "Proteins",
+          "option3": "Vitamins",
+          "option4": "Minerals",
+      "correctAnswer": 1
+  },
+  {
+      "question": "How many kidneys do you have",
+          "option1": "1",
+          "option2": "2",
+          "option3": "3",
+          "option4": "4",
+      "correctAnswer": 2
+  },
+  {
+      "question": "What is the purpose of oygen in your body",
+          "option1": "Anabolism",
+          "option2": "Reduction",
+          "option3": "Catabolism",
+          "option4": "Breathing",
+      "correctAnswer": 3
+  },
+  {
+      "question": "Which one is not a function of the pancrease",
+          "option1": "Secrete enzymes",
+          "option2": "Make hormones",
+          "option3": "Produce insulin",
+          "option4": "Produce salaiva",
+      "correctAnswer": 4
+  },
+  {
+      "question": "How many cerebral hemispheres does yor brain have",
+          "option1": "2",
+          "option2": "5",
+          "option3": "3",
+          "option4": "4",
+      "correctAnswer": 1
+  },
+  {
+      "question": "Your heart is about the same size as your",
+          "option1": "Bicep",
+          "option2": "Fist",
+          "option3": "2 biceps",
+          "option4": "2 fist",
+      "correctAnswer": 2
+  },
+  {
+      "question": "What causes flue",
+          "option1": "Germs",
+          "option2": "Bacteria",
+          "option3": "Virus",
+          "option4": "Cold",
+      "correctAnswer": 3
+  },
+  {
+      "question": "Which joint on your body does 360 degrees turn",
+          "option1": "Ball and Socket",
+          "option2": "Hinge",
+          "option3": "Saddle",
+          "option4": "Pivot",
+      "correctAnswer": 1
+  },
+  {
+      "question": "What is DNA",
+          "option1": "Diribonucleic acid",
+          "option2": "Deoxyribonucleic acid",
+          "option3": "Dioxyribonucleic acid",
+          "option4": "Doxyribonucleic acid",
+      "correctAnswer": 2
+  },
+  {
+      "question": "Which mineral gives teeth and bones and bones their hardness",
+          "option1": "Calcium",
+          "option2": "Potassium",
+          "option3": "Sodium",
+          "option4": "Magnesium",
+      "correctAnswer": 1
+  },
+  {
+      "question": "Which mineral is made by your skin",
+          "option1": "Vitamin D",
+          "option2": "Vitamin E",
+          "option3": "Vitamin C",
+          "option4": "Vitamin B",
+      "correctAnswer": 1
+  },
+  {
+      "question": "Why is the color of your blood red",
+          "option1": "interaction between sodium and oxygen",
+          "option2": "interaction between iron and carbon dioxide",
+          "option3": "interaction between iron and oxygen",
+          "option4": "interaction between sodium and carbon dioxide",
+      "correctAnswer": 3
+  },
+  {
+      "question": "Where does carbon dioxide in your body come from",
+          "option1": "Metabolism",
+          "option2": "Lungs",
+          "option3": "Nose",
+          "option4": "Air",
+      "correctAnswer": 1
+  },
+  {
+      "question": "Another name for your voice box is",
+          "option1": "Glotis",
+          "option2": "Pharynx",
+          "option3": "Nose",
+          "option4": "Larynx",
+      "correctAnswer": 4
+  },
+  {
+      "question": "Where in your body does digestion start",
+          "option1": "Stomach",
+          "option2": "Large intestines",
+          "option3": "Mouth",
+          "option4": "Small intestines",
+      "correctAnswer": 3
+  },
+  {
+      "question": "Which of these muscles is the strongest",
+          "option1": "Jaw",
+          "option2": "Biceps",
+          "option3": "Buttocks",
+          "option4": "Hamstrings",
+      "correctAnswer": 1
+  },
+  {
+      "question": "Where in the body is the smallest bone found",
+          "option1": "Feet",
+          "option2": "Hand",
+          "option3": "Mouth",
+          "option4": "Ear",
+      "correctAnswer": 4
+  },
+  {
+      "question": "What connect your muscles to your bones",
+          "option1": "Tendons",
+          "option2": "Ligaments",
+          "option3": "Skin",
+          "option4": "Cartilage",
+      "correctAnswer": 1
+  },
+  {
+      "question": "Where in your body does most digestion take place",
+          "option1": "Stomach",
+          "option2": "Large intestines",
+          "option3": "Mouth",
+          "option4": "Small intestines",
+      "correctAnswer": 4
+  },
+  {
+      "question": "Which hormone is present in female body but in low quantities",
+          "option1": "Progesterone",
+          "option2": "Estrogen",
+          "option3": "Testosterone",
+          "option4": "Thyroxine",
+      "correctAnswer": 3
+  },
+  {
+      "question": "Which of these organs helps to purify blood?",
+          "option1": "Liver",
+          "option2": "Kidney",
+          "option3": "Lungs",
+          "option4": "Pancreas",
+      "correctAnswer": 2
+  },
+  {
+      "question": "Which of these organs can grow back again if some of it is removed?",
+          "option1": "Liver",
+          "option2": "Kidney",
+          "option3": "Heart",
+          "option4": "Stomatch",
+      "correctAnswer": 1
+  },
+  {
+      "question": "Where in the body are new blood cells made",
+          "option1": "Liver",
+          "option2": "Bones",
+          "option3": "Brain",
+          "option4": "Heart",
+      "correctAnswer": 2
+  },
+  {
+      "question": "What is the function of neurons",
+          "option1": "Transmit information",
+          "option2": "Process information",
+          "option3": "Guard information",
+          "option4": "Store information",
+      "correctAnswer": 1
+  },
+  {
+      "question": "How many chamber(s) does your heart have",
+          "option1": "1",
+          "option2": "6",
+          "option3": "4",
+          "option4": "8",
+      "correctAnswer": 3
+  },
+  {
+      "question": "What percentage of the your body is water?",
+          "option1": "66%",
+          "option2": "75%",
+          "option3": "50%",
+          "option4": "30%",
+      "correctAnswer": 1
+  },
+  {
+      "question": "The outside layer of skin on the human body is called the ?",
+          "option1": "Hypodermis",
+          "option2": "Epidermis",
+          "option3": "Dermis",
+          "option4": "Muscle",
+      "correctAnswer": 2
+  },
+  {
+      "question": "What is the name of the biggest part of the human brain",
+          "option1": "Cerebrum",
+          "option2": "Cerebellum",
+          "option3": "Basal ganglia",
+          "option4": "Brainstem",
+      "correctAnswer": 1
+  },
+  {
+      "question": "What is the heaviest organ in the human body",
+          "option1": "Heart",
+          "option2": "Brain",
+          "option3": "Liver",
+          "option4": "Skin",
+      "correctAnswer": 4
+  },
+  {
+      "question": "Which type of joint is your shoulders and hips",
+          "option1": "Saddle",
+          "option2": "Ball and Socket",
+          "option3": "Hinge",
+          "option4": "Pivot",
+      "correctAnswer": 2
+  },
+  {
+      "question": "How many teeth does an adult normally have",
+          "option1": "48",
+          "option2": "38",
+          "option3": "32",
+          "option4": "24",
+      "correctAnswer": 3
+  },
+  {
+      "question": " The shape of DNA is known as",
+          "option1": "Single helix",
+          "option2": "Double helix",
+          "option3": "Triple helix",
+          "option4": "Quad helix",
+      "correctAnswer": 2
+  }
 ]
+ 
+ 
+ 
 
