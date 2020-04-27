@@ -4,13 +4,13 @@ const progressText = document.getElementById("progressText");
 const scoreText = document.getElementById("score");
 const progressBarFull = document.getElementById("progressBarFull");
 const bonus = 10;
-const maxQuestions = 5;
+const maxQuestions = 10;
 let currentQuestion = {};
 let acceptingAnswers = false;
 let score = 0;
 let questionCounter = 0;
 let availableQuesions = [];
-let questions = [];
+let questions = [10];
 
 fetch("quiz.json")
   .then(res => {
@@ -20,11 +20,8 @@ fetch("quiz.json")
     questions = loadedQuestions;
     startGame();
   })
-  .catch(err => {
-    console.error(err);
-  });
-
-function startGame() {
+  
+ startGame = () => {
   questionCounter = 0;
   score = 0;
   availableQuesions = [...questions];
@@ -34,6 +31,7 @@ function startGame() {
 getNewQuestion = () => {
   if (availableQuesions.length === 0 || questionCounter >= maxQuestions) {
     localStorage.setItem("mostRecentScore", score);
+    return window.location.assign("/quiz.html");
     
   }
   questionCounter++;

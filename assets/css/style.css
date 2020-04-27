@@ -2,7 +2,6 @@ body {margin: 0;
       padding:0;
       background-color: lightblue;}
 
-
 /*---------------------navbar styling--------------------*/
 
 .navbar {margin: 0;
@@ -42,7 +41,7 @@ body {margin: 0;
                 margin:15px;}
 
 .table-centre { margin-left:auto; 
-                     margin-right:auto;}
+                margin-right:auto;}
 
 .carousel-text{transform: translate();
                background: rgba(0, 0, 0, 0.4);}              
@@ -53,32 +52,69 @@ body {margin: 0;
 
 .form-control {width: 150px;}
 
+tr {margin:2rem 0;}
+
 .slidediv {margin-top: 5px;}
 
 /*............... What-is-it page...............*/
 
-.what-is-it {padding:10px;
-             background-color:pink;}
+.what-is-it {margin:10px;
+            }
 
-/*............... Play quiz page...............*/
+h3 {color: black;}
 
-.question{font-weight: 600;}
+/*-------------Quiz Page------------------*/
+
+.option-container { display: flex;
+                    margin-bottom: 0.5rem;
+                    width: 100%;
+                    border-radius: 18px;
+                    font-size: 1.5rem;
+                    border: 0.1rem solid rgb(86, 165, 235, 0.25);
+                    background-color: rgb(236, 228, 228);}
+
+.option-container:hover {cursor: pointer;
+                         box-shadow: 0 0.4rem 1.4rem 0 rgba(86, 185, 235, 0.5);
+                         transform: translateY(-0.1rem);
+                         transition: transform 150ms;}
+
+
+.option-text {padding: 1.5rem;
+                width: 100%;}
+
+.correct { background-color: #008000;}
+
+.incorrect { background-color: #ff0000;}
+
+#hud {background-color: gray;
+      display: flex;
+      justify-content: space-between;}
+
+
+.hud-prefix {text-align: center;
+             font-size: 2rem;}
+ 
+.hud-main-text {text-align: center;}
+
+.kala {background-color: lightblue;
+       margin-top: 50px;
+       border-radius: 5px;}
+
+.question {font-weight: 600;}
 
 .answers {padding: 5px;
           margin-bottom: 10px;}
 
 .answers label {display: block;}
 
-#submit{
-    font-size: 20px;
-    background-color: #297;
-    color: #fff;
-    border: 0px;
-    border-radius: 5px;
-    padding: 20px;
-    cursor: pointer;
-    margin-bottom: 20px;
-}
+ #submit{ font-size: 20px;
+          background-color: #297;
+          color: #fff;
+          border: 0px;
+          border-radius: 5px;
+          padding: 20px;
+         cursor: pointer;
+         margin-bottom: 20px;}
 
 #submit:hover {background-color: rgb(170, 79, 51);}
 
@@ -94,34 +130,33 @@ body {margin: 0;
 /*-------------Modal Pop up------------*/
 
 .modal { display: none; 
-  position: fixed;
-  z-index: 1; 
-  padding-top: 100px; 
-  left: 0;
-  top: 0;
-  width: 100%; 
-  height: 100%; 
-  overflow: auto;
-  background-color: rgba(0,0,0,0.3);}
+         position: fixed;
+         z-index: 1; 
+         padding-top: 100px; 
+         left: 0;
+         top: 0;
+         width: 100%; 
+         height: 100%; 8
+         overflow: auto;
+         background-color: rgba(0,0,0,0.3);}
 
-.modal-content {
-  background-color: #fefefe;
-  margin: auto;
-  padding: 20px;
-  color: white;;
-  width: 500px;
-  height: 120px;
-  transform: translate();
-  background: rgb(17, 17, 17);
-  border: 3px solid black;
-  }
 
-.close {
-  color: #aaaaaa;
-  float: right;
-  font-size: 13px;
-  font-weight: bold;}
+ .modal-content { background-color: #fefefe;
+                  margin: auto;
+                  padding: 20px;
+                  color: white;;
+                  width: 500px;
+                  height: 120px;
+                  transform: translate();
+                  background: rgb(17, 17, 17);
+                  border: 3px solid black;}
 
-.close:hover, .close:focus {color: #000;
-                            text-decoration: none;
-                            cursor: pointer;}
+.close { color: #aaaaaa;
+         float: right;
+         font-size: 13px;
+         font-weight: bold;}
+
+.close:hover, .close:focus { color: #000;
+                             text-decoration: none;
+                             cursor: pointer;}
+
