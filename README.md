@@ -61,18 +61,40 @@ that moves, refreshes, or otherwise changes on your screen without requiring you
 [Jquery](https://jquery.com/) -
 The project uses JQuery to simplify DOM manipulation
 
-### Testing
+## Testing
 
-input values were put into the input field and if the value is not a number 
+#### Chrome Developer Tools
+
+Frequent testing was carried out using Chrome’s developer tools to ensure that Java Script code was behaving as intended and errors that would have been generated. Using console log l could see the ouptup of the code.
+ The content of the site behaved properly and looked good across a range of screen sizes. This was also utilised to ensure that there was sufficient contrast between text and the background colour.
+
+
+#### Manual Testing
+
+Input values were put into the input field and if the value is not a number 
 nothing will be inputed but if the value is a number it will be inputed. After 
 the input field had data of numbers the and calculate button is then clicked and it 
 returned a value inside the modal that that shows the users body mass and healthy tips.
-On the radio button when clicked it responded well and when the get result button was 
-clicked it responded as intended by showing the total score of the user aganist total 
-number of questions 
+The answers on the quiz were responding exactly as intended between a correct answer
+highlighted a green color and then a bonus 10 points was added while an incorrect answer 
+it will be highlighted in red color and no bonus points were added. The questions were 
+being displayed in random order as intended the users current answered question was 
+displayed out of the total questions the user has to answer
 
 
 ## Deployment
+
+#### Local
+
+This project can be ran locally by going to this Repository link and clicking on the Clone or Download button and copying the link provided.
+
+In your IDE, open a Terminal window and change to the directory where you want to clone this project and type Git clone "your copied link".
+
+After pressing Enter the project will be created and cloned locally.
+
+Alternatively you can download the zipped file, decompress it and use your IDE of choice to access it.
+
+#### Remote
 
 Logged in to Github
 
@@ -90,7 +112,18 @@ The link to website could then be found under the GitHub Pages section with the 
 
 ### Content 
 
+
+
+https://www.cdc.gov/healthyweight/assessing/bmi/index.html
+
+https://www.omnicalculator.com/health/bmi#bmi-ranges
+
+https://www.health.harvard.edu/blog/how-useful-is-the-body-mass-index-bmi-201603309339
+
 ### Media 
+
+
+The photos of blood, heart, lungs and lungs were taken from google free hd images 
 
 ### Acknoledgements 
 
