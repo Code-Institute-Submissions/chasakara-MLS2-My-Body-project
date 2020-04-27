@@ -29,17 +29,21 @@ As a user l would want to play the quiz
 
 ## Features
 
+
+
 ### Existing features 
 
 **Calculate** button - When clicked makes the moadsal to pop up
 
 **Modal** - It pops out when the calculate button is pressed showing BMI and healthy tips 
 
-**Get results** button - When clicked it shows the users total scores of the answers they 
-                got correct agani
 
 
 ### Future features
+
+A feature to calculate users metabolism rate
+
+A feature to calculate 
 
 
 ### Wire Frames
@@ -81,18 +85,15 @@ it will be highlighted in red color and no bonus points were added. The question
 being displayed in random order as intended the users current answered question was 
 displayed out of the total questions the user has to answer
 
-Several manual tests were performed to ensure the best possible user experience in 
-both desktop and mobile environments.
-
 Scrolling is smooth accross all browsers.
 
 Navigation never breaks.
 
-Clicking on the logo brings you to home page.
+Clicking on the logo takes you to home page.
 
-Clicking on the What is it brings you to what is it page.
+Clicking on the What is it take you to what is it page.
 
-Clicking on the Quiz brings you to quiz page.
+Clicking on the Quiz takes you to quiz page.
 
 
 ## Deployment
@@ -125,7 +126,7 @@ The link to website could then be found under the GitHub Pages section with the 
 
 ### Content 
 
-
+https://youtu.be/49pYIMygIcU
 
 https://www.cdc.gov/healthyweight/assessing/bmi/index.html
 
@@ -134,7 +135,6 @@ https://www.omnicalculator.com/health/bmi#bmi-ranges
 https://www.health.harvard.edu/blog/how-useful-is-the-body-mass-index-bmi-201603309339
 
 ### Media 
-
 
 The photos of blood, heart, lungs and lungs were taken from google free hd images 
 

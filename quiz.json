@@ -8,12 +8,12 @@
       "correctAnswer": 1
   },
   {
-      "question": "What is the human body's biggest organ",
-         "option1": "Lungs",
+      "question": "What body organ do you use for sense of touch",
+          "option1": "Nose",
           "option2": "Skin",
-          "option3": "Liver",
-          "option4": "Kidneys",
-      "correctAnswer": 2
+          "option3": "Hand",
+          "option4": "Eye",
+      "correctAnswer": 3
   },
   {
       "question": "What is the purpose of insulin in your body",
@@ -23,14 +23,7 @@
           "option4": "Regulate hormones",
       "correctAnswer": 1
   },
-  {
-      "question": "What body organ do you use for sense of touch",
-          "option1": "Nose",
-          "option2": "Skin",
-          "option3": "Hand",
-          "option4": "Eye",
-      "correctAnswer": 3
-  },
+  
   {
       "question": "Which one is not the function of liver",
           "option1": "Bile production and excretion",
@@ -96,19 +89,19 @@
       "correctAnswer": 2
   },
   {
-      "question": "What is the purpose of the spinal code",
-          "option1": "It protects your back",
-          "option2": "It give you balance when you are standing up",
-          "option3": "It connects a large part of the peripheral nervous system to the brain",
-          "option4": "It make white blood cells",
-      "correctAnswer": 3
-  },
-  {
       "question": "The spinal code is connected to which organ",
           "option1": "Heart",
           "option2": "Brain",
           "option3": "Pelvis",
           "option4": "Neck",
+      "correctAnswer": 2
+  },
+  {
+      "question": "What is the human body's biggest organ",
+         "option1": "Lungs",
+          "option2": "Skin",
+          "option3": "Liver",
+          "option4": "Kidneys",
       "correctAnswer": 2
   },
   {
@@ -152,14 +145,6 @@
       "correctAnswer": 1
   },
   {
-      "question": "How many kidneys do you have",
-          "option1": "1",
-          "option2": "2",
-          "option3": "3",
-          "option4": "4",
-      "correctAnswer": 2
-  },
-  {
       "question": "What is the purpose of oygen in your body",
           "option1": "Anabolism",
           "option2": "Reduction",
@@ -200,6 +185,14 @@
       "correctAnswer": 3
   },
   {
+      "question": "How many kidneys do you have",
+          "option1": "1",
+          "option2": "2",
+          "option3": "3",
+          "option4": "4",
+      "correctAnswer": 2
+  },
+  {
       "question": "Which joint on your body does 360 degrees turn",
           "option1": "Ball and Socket",
           "option2": "Hinge",
@@ -230,6 +223,14 @@
           "option3": "Vitamin C",
           "option4": "Vitamin B",
       "correctAnswer": 1
+  },
+  {
+      "question": "What is the purpose of the spinal code",
+          "option1": "It protects your back",
+          "option2": "It give you balance when you are standing up",
+          "option3": "It connects a large part of the peripheral nervous system to the brain",
+          "option4": "It make white blood cells",
+      "correctAnswer": 3
   },
   {
       "question": "Why is the color of your blood red",
@@ -320,14 +321,6 @@
       "correctAnswer": 1
   },
   {
-      "question": "Where in the body are new blood cells made",
-          "option1": "Liver",
-          "option2": "Bones",
-          "option3": "Brain",
-          "option4": "Heart",
-      "correctAnswer": 2
-  },
-  {
       "question": "What is the function of neurons",
           "option1": "Transmit information",
           "option2": "Process information",
@@ -366,6 +359,14 @@
           "option3": "Basal ganglia",
           "option4": "Brainstem",
       "correctAnswer": 1
+  },
+  {
+      "question": "Where in the body are new blood cells made",
+          "option1": "Liver",
+          "option2": "Bones",
+          "option3": "Brain",
+          "option4": "Heart",
+      "correctAnswer": 2
   },
   {
       "question": "What is the heaviest organ in the human body",

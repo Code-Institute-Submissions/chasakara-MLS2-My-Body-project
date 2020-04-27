@@ -21,14 +21,14 @@ fetch("quiz.json")
     startGame();
   })
   
- startGame = () => {
+ function startGame () {
   questionCounter = 0;
   score = 0;
   availableQuesions = [...questions];
   getNewQuestion();
 };
 
-getNewQuestion = () => {
+function getNewQuestion() {
   if (availableQuesions.length === 0 || questionCounter >= maxQuestions) {
     localStorage.setItem("mostRecentScore", score);
     return window.location.assign("/quiz.html");
@@ -70,11 +70,11 @@ options.forEach(option => {
     setTimeout(() => {
       selectedOption.parentElement.classList.remove(classToApply);
       getNewQuestion();
-    }, 800);
+    }, 700);
   });
 });
 
-incrementScore = num => {
+function incrementScore (num){
   score += num;
   scoreText.innerText = score;
 };
