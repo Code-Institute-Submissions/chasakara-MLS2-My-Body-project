@@ -1,9 +1,9 @@
 const question = document.getElementById("question");
-const options = Array.from(document.getElementsByClassName("option-text"));
+const options = Array.from(document.getElementsByClassName("option-answer"));
 const progressText = document.getElementById("progressText");
 const scoreText = document.getElementById("score");
 const progressBarFull = document.getElementById("progressBarFull");
-const bonus = 10;
+const bonus = 5;
 const maxQuestions = 10;
 let currentQuestion = {};
 let acceptingAnswers = false;
@@ -70,7 +70,7 @@ options.forEach(option => {
     setTimeout(() => {
       selectedOption.parentElement.classList.remove(classToApply);
       getNewQuestion();
-    }, 1000);
+    }, 800);
   });
 });
 

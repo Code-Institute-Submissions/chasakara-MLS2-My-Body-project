@@ -76,10 +76,23 @@ nothing will be inputed but if the value is a number it will be inputed. After
 the input field had data of numbers the and calculate button is then clicked and it 
 returned a value inside the modal that that shows the users body mass and healthy tips.
 The answers on the quiz were responding exactly as intended between a correct answer
-highlighted a green color and then a bonus 10 points was added while an incorrect answer 
+highlighted a green color and then a bonus 5 points was added while an incorrect answer 
 it will be highlighted in red color and no bonus points were added. The questions were 
 being displayed in random order as intended the users current answered question was 
 displayed out of the total questions the user has to answer
+
+Several manual tests were performed to ensure the best possible user experience in 
+both desktop and mobile environments.
+
+Scrolling is smooth accross all browsers.
+
+Navigation never breaks.
+
+Clicking on the logo brings you to home page.
+
+Clicking on the What is it brings you to what is it page.
+
+Clicking on the Quiz brings you to quiz page.
 
 
 ## Deployment
