@@ -16,6 +16,22 @@
       "correctAnswer": 3
   },
   {
+      "question": "What are proteins used for by your body",
+          "option1": "Build bones",
+          "option2": "Build and repair tissues",
+          "option3": "Make blood",
+          "option4": "Make tears",
+      "correctAnswer": 2
+  },
+  {
+      "question": "Which part of your body gets oxygen directly through the air.",
+          "option1": "Mouth",
+          "option2": "Skin",
+          "option3": "Cornea",
+          "option4": "Ears",
+      "correctAnswer": 3
+  },
+  {
       "question": "What is the purpose of insulin in your body",
           "option1": "Control blood sugar level",
           "option2": "Remove blood toxins",
@@ -169,46 +185,6 @@
       "correctAnswer": 1
   },
   {
-      "question": "Your heart is about the same size as your",
-          "option1": "Bicep",
-          "option2": "Fist",
-          "option3": "2 biceps",
-          "option4": "2 fist",
-      "correctAnswer": 2
-  },
-  {
-      "question": "What causes flue",
-          "option1": "Germs",
-          "option2": "Bacteria",
-          "option3": "Virus",
-          "option4": "Cold",
-      "correctAnswer": 3
-  },
-  {
-      "question": "How many kidneys do you have",
-          "option1": "1",
-          "option2": "2",
-          "option3": "3",
-          "option4": "4",
-      "correctAnswer": 2
-  },
-  {
-      "question": "Which joint on your body does 360 degrees turn",
-          "option1": "Ball and Socket",
-          "option2": "Hinge",
-          "option3": "Saddle",
-          "option4": "Pivot",
-      "correctAnswer": 1
-  },
-  {
-      "question": "What is DNA",
-          "option1": "Diribonucleic acid",
-          "option2": "Deoxyribonucleic acid",
-          "option3": "Dioxyribonucleic acid",
-          "option4": "Doxyribonucleic acid",
-      "correctAnswer": 2
-  },
-  {
       "question": "Which mineral gives teeth and bones and bones their hardness",
           "option1": "Calcium",
           "option2": "Potassium",
@@ -337,6 +313,38 @@
       "correctAnswer": 3
   },
   {
+      "question": "Your heart is about the same size as your",
+          "option1": "Bicep",
+          "option2": "Fist",
+          "option3": "2 biceps",
+          "option4": "2 fist",
+      "correctAnswer": 2
+  },
+  {
+      "question": "Which organ makes urine?",
+          "option1": "Kidney%",
+          "option2": "Pancreas%",
+          "option3": "Liver%",
+          "option4": "Bladder%",
+      "correctAnswer": 3
+  },
+  {
+      "question": "Which joint on your body does 360 degrees turn",
+          "option1": "Ball and Socket",
+          "option2": "Hinge",
+          "option3": "Saddle",
+          "option4": "Pivot",
+      "correctAnswer": 1
+  },
+  {
+      "question": "What is DNA",
+          "option1": "Diribonucleic acid",
+          "option2": "Deoxyribonucleic acid",
+          "option3": "Dioxyribonucleic acid",
+          "option4": "Doxyribonucleic acid",
+      "correctAnswer": 2
+  },
+  {
       "question": "What percentage of the your body is water?",
           "option1": "66%",
           "option2": "75%",
@@ -359,6 +367,14 @@
           "option3": "Basal ganglia",
           "option4": "Brainstem",
       "correctAnswer": 1
+  },
+  {
+      "question": "Human brain is _________ water",
+          "option1": "7%",
+          "option2": "38%",
+          "option3": "80%",
+          "option4": "88%",
+      "correctAnswer": 3
   },
   {
       "question": "Where in the body are new blood cells made",
@@ -398,6 +414,29 @@
           "option2": "Double helix",
           "option3": "Triple helix",
           "option4": "Quad helix",
+      "correctAnswer": 2
+  },{
+      "question": "What causes flue",
+          "option1": "Germs",
+          "option2": "Bacteria",
+          "option3": "Virus",
+          "option4": "Cold",
+      "correctAnswer": 3
+  },
+  {
+      "question": "How many kidneys do you have",
+          "option1": "1",
+          "option2": "2",
+          "option3": "3",
+          "option4": "4",
+      "correctAnswer": 2
+  },
+  {
+      "question": "What is the only living tissue in your body that does not contain blood vessels?",
+          "option1": "Ear",
+          "option2": "Cornea",
+          "option3": "Hair",
+          "option4": "Nail",
       "correctAnswer": 2
   }
 ]

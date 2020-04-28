@@ -41,18 +41,22 @@ answer and the user current answered questions aganist the remaining questions
 
 ### Existing features 
 
-**Calculate** button - When clicked makes the moadal to pop up
+**Inputs** - Allows user to input their weight, height, weist and neck
 
-**Modal** - It pops out when the calculate button is pressed showing BMI and healthy tips 
+**Quiz** page - Allows user to play quiz game 
+
+**Calculate** button - Allows user to click after inputing their data and it shows their body mass index and show if they are 
+ underweight, normal, overweight or obese and with health tips
+
+**Modal** - It pops out when the calculate button is is clicked by the user showing BMI and healthy tips 
 
 ### Future features
 
 A feature to calculate users metabolism rate
 
-### Wire Frames
+More questions will be added with a timer
 
-#### Problems encountered
-making the table to get values
+### Wire Frames
 
 #### Technologies Used 
 
@@ -98,6 +102,17 @@ Clicking on the What is it take you to what is it page.
 
 Clicking on the Quiz takes you to quiz page.
 
+### Validators
+
+
+**HTML**
+
+***W3C HTML Validator*** - No errors or warnings were found.
+
+**CSS**
+
+***W3C CSS Validator*** -  No errors or warnings were found.
+
 
 ## Deployment
 
@@ -110,6 +125,8 @@ In your IDE, open a Terminal window and change to the directory where you want t
 After pressing Enter the project will be created and cloned locally.
 
 Alternatively you can download the zipped file, decompress it and use your IDE of choice to access it.
+
+Github Repo: https://github.com/chasakara/MLS2-My-Body-project.git
 
 #### Remote
 
@@ -129,13 +146,11 @@ The link to website could then be found under the GitHub Pages section with the 
 
 ### Content 
 
-https://youtu.be/49pYIMygIcU
+The text for in What is it page was copied from https://www.cdc.gov/healthyweight/assessing/bmi/index.html
 
-https://www.cdc.gov/healthyweight/assessing/bmi/index.html
+The text for in What is it page was copied from  https://www.omnicalculator.com/health/bmi#bmi-ranges
 
-https://www.omnicalculator.com/health/bmi#bmi-ranges
-
-https://www.health.harvard.edu/blog/how-useful-is-the-body-mass-index-bmi-201603309339
+The text for in What is it page was copied from https://www.health.harvard.edu/blog/how-useful-is-the-body-mass-index-bmi-201603309339
 
 ### Media 
 

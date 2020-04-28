@@ -1,12 +1,12 @@
 body {margin: 0;
       padding:0;
-      background-color: lightblue;}
+      background-color: #add8e6;}
 
 /*---------------------navbar styling--------------------*/
 
 .navbar {margin: 0;
          padding: 0;
-         background-color: black;}
+         background-color: #000000;}
 
 .navbar-brand img { height: 40px;
                     margin-left:3px;
@@ -20,15 +20,15 @@ body {margin: 0;
               display: block;
               font-size: 1.5em;
               margin: 0 25px;
-              color: white;}
+              color: #ffffff;}
 
 .navbar-toggler-icon {background-color: rgb(235, 228, 228);
                       border-radius: 5px;}
 
-.navbar-toggler-icon > i {color:black; 
+.navbar-toggler-icon > i {color:#000000; 
                           font-size:23px;}
 
-.nav-item a:hover {color:blue;
+.nav-item a:hover {color:#0000ff;
                    font-size: 167%;}
 
  .current {background-color: rgba(235, 228, 228, 0.822);
@@ -54,8 +54,8 @@ body {margin: 0;
 
 td {margin-top:2rem }
 
-#myBtn {background-color: gray;
-        color: white;
+#myBtn {background-color: #808080;
+        color: #ffffff;
         border-radius: 1rem;
         margin-left: 50%;
         margin-right: 50%;
@@ -67,7 +67,7 @@ td {margin-top:2rem }
 
 .what-is-it {margin:10px;}
 
-h3 {color: black;}
+h3 {color: #000000;}
 
 /*-------------Quiz Page------------------*/
 
@@ -79,16 +79,15 @@ h3 {color: black;}
                     display: flex;
                     border-radius: 18px;
                     font-size: 2rem;
-                    border: 0.1rem dotted rgb(79, 165, 240, 0.3);
-                    background-color: rgb(240, 219, 228);}
+                    border: 0.1rem dotted #4fa5f04d;
+                    background-color: #f0dbe4;}
 
 .option-container:hover { cursor: pointer;
                          transition: transform 150ms;
                          transform: translateY(-0.1rem);
 }
                          
-.question{margin: 5px;
-         font-style: Courier;}
+.question{margin: 5px;}
 
 .option-answer {padding: 1.4rem;
                 width: 100%;}
@@ -97,8 +96,8 @@ h3 {color: black;}
 
 .incorrect { background-color: #ff0000;}
 
-#hud {background-color: gray;
-      margin-top: 1,5rem;  
+#hud {background-color: #808080;
+      margin-top: 1.5rem;  
       border-radius: 2px;
       display: flex;
       justify-content: space-between;}
@@ -106,12 +105,12 @@ h3 {color: black;}
 
 .hud-prefix {text-align: center;
              font-size: 2rem;
-             color: white}
+             color: #ffffff}
  
 .display-score {text-align: center;
-                color: white}
+                color: #ffffff}
 
-.kala {background-color: lightblue;
+.kala {background-color: #add8e6;
        margin-top: 50px;
        border-radius: 5px;}
 
@@ -125,28 +124,28 @@ h3 {color: black;}
 
 /*-------------Modal Pop up------------*/
 
-.modal { display: none; 
+.modal { top: 0;
+         width: 100%; 
+         height: 100%; 
+         color: #ffffff;
+         display: none; 
          position: fixed;
          z-index: 1; 
          padding-top: 100px; 
          left: 0;
-         top: 0;
-         width: 100%; 
-         height: 100%; 
-         color: white;
          overflow: auto;
-         background-color: rgba(0,0,0,0.9);}
+         background-color: hsla(0, 0%, 0%, 0.3);}
 
 
  .modal-content { background-color: #fefefe;
                   margin: auto;
                   padding: 20px;
-                  color: white;;
+                  color: #ffffff;;
                   width: 500px;
                   height: 120px;
                   transform: translate();
-                  background: rgb(17, 17, 17);
-                  border: 3px solid black;}
+                  background: hsl(0, 0%, 7%);
+                  border: 3px solid #000000;}
 
 .close { color: #aaaaaa;
          float: right;
