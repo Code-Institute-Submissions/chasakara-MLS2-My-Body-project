@@ -29,22 +29,25 @@ As a user l would want to play the quiz
 
 ## Features
 
+**Inputs** This were the user inputs their weight, height, neck and weist values as number
+
+**Navbar** - a responsive navbar that changes depending on what size screen is the device thereby making for easier usability
+
+**What is it** a page that describe more about Body Mass Index (BMI)
+
+**Quiz** a page that displays the quiz with questions and anwers options to choose from and the score points for correct 
+answer and the user current answered questions aganist the remaining questions
 
 
 ### Existing features 
 
-**Calculate** button - When clicked makes the moadsal to pop up
+**Calculate** button - When clicked makes the moadal to pop up
 
 **Modal** - It pops out when the calculate button is pressed showing BMI and healthy tips 
-
-
 
 ### Future features
 
 A feature to calculate users metabolism rate
-
-A feature to calculate 
-
 
 ### Wire Frames
 
