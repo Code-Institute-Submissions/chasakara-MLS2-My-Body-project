@@ -71,24 +71,26 @@ h3 {color: black;}
 
 /*-------------Quiz Page------------------*/
 
-.option-container { display: flex;
-                    margin-bottom: 0.5rem;
-                    width: auto;
+#quiz {margin-top: 1.5rem;}
+
+.option-container { width: auto;
                     height: auto;
+                    margin-bottom: 0.4rem;
+                    display: flex;
                     border-radius: 18px;
                     font-size: 2rem;
-                    border: 0.1rem solid rgb(86, 165, 235, 0.25);
-                    background-color: rgb(236, 228, 228);}
+                    border: 0.1rem dotted rgb(79, 165, 240, 0.3);
+                    background-color: rgb(240, 219, 228);}
 
-.option-container:hover {transform: translateY(-0.1rem);
+.option-container:hover { cursor: pointer;
                          transition: transform 150ms;
-                         cursor: pointer;
-                         box-shadow: 0 0.4rem 1.4rem 0 rgba(86, 185, 235, 0.5);}
+                         transform: translateY(-0.1rem);
+}
                          
 .question{margin: 5px;
          font-style: Courier;}
 
-.option-answer {padding: 1.5rem;
+.option-answer {padding: 1.4rem;
                 width: 100%;}
 
 .correct { background-color: #008000;}
@@ -96,20 +98,25 @@ h3 {color: black;}
 .incorrect { background-color: #ff0000;}
 
 #hud {background-color: gray;
+      margin-top: 1,5rem;  
+      border-radius: 2px;
       display: flex;
       justify-content: space-between;}
 
 
 .hud-prefix {text-align: center;
-             font-size: 2rem;}
+             font-size: 2rem;
+             color: white}
  
-.hud-main-text {text-align: center;}
+.display-score {text-align: center;
+                color: white}
 
 .kala {background-color: lightblue;
        margin-top: 50px;
        border-radius: 5px;}
 
-.question {font-weight: 600;}
+.question {font-weight: 500;
+        font-style: italic;}
 
 .answers {padding: 5px;
           margin-bottom: 10px;}
@@ -128,7 +135,7 @@ h3 {color: black;}
          height: 100%; 
          color: white;
          overflow: auto;
-         background-color: rgba(0,0,0,0.3);}
+         background-color: rgba(0,0,0,0.9);}
 
 
  .modal-content { background-color: #fefefe;
