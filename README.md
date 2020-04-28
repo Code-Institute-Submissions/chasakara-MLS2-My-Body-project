@@ -29,13 +29,13 @@ As a user l would want to play the quiz
 
 ## Features
 
-**Inputs** This were the user inputs their weight, height, neck and weist values as number
+**Inputs** - This were the user inputs their weight, height, neck and weist values as number
 
 **Navbar** - a responsive navbar that changes depending on what size screen is the device thereby making for easier usability
 
-**What is it** a page that describe more about Body Mass Index (BMI)
+**What is it** - a page that describe more about Body Mass Index (BMI)
 
-**Quiz** a page that displays the quiz with questions and anwers options to choose from and the score points for correct 
+**Quiz** - a page that displays the quiz with questions and anwers options to choose from and the score points for correct 
 answer and the user current answered questions aganist the remaining questions
 
 
@@ -57,6 +57,8 @@ A feature to calculate users metabolism rate
 More questions will be added with a timer
 
 ### Wire Frames
+
+https://a9729f3b-6bc0-45f2-a985-dd70085b7a9f.ws-eu01.gitpod.io/files/download/?id=7e1cde46-1719-424f-8907-93b4d5510b72
 
 #### Technologies Used 
 
@@ -105,11 +107,11 @@ Clicking on the Quiz takes you to quiz page.
 ### Validators
 
 
-**HTML**
+#### HTML
 
 ***W3C HTML Validator*** - No errors or warnings were found.
 
-**CSS**
+#### CSS
 
 ***W3C CSS Validator*** -  No errors or warnings were found.
 
