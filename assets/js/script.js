@@ -1,8 +1,7 @@
-const question = document.getElementById("question");
 const options = Array.from(document.getElementsByClassName("option-answer"));
 const progressText = document.getElementById("progressText");
+const question = document.getElementById("question");
 const scoreText = document.getElementById("score");
-const progressBarFull = document.getElementById("progressBarFull");
 const bonus = 5;
 const maxQuestions = 10;
 let currentQuestion = {};
@@ -29,8 +28,8 @@ fetch("quiz.json")
 };
 
 function getNewQuestion() {
-  if (availableQuesions.length === 0 || questionCounter >= maxQuestions) {
-    localStorage.setItem("mostRecentScore", score);
+  if (availableQuesions.length == 0 || questionCounter >= maxQuestions) {
+    localStorage.setItem("RecentScore", score);
     return window.location.assign("/quiz.html");
     
   }
