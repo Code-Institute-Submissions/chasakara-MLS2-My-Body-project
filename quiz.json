@@ -322,11 +322,11 @@
   },
   {
       "question": "Which organ makes urine?",
-          "option1": "Kidney%",
-          "option2": "Pancreas%",
-          "option3": "Liver%",
-          "option4": "Bladder%",
-      "correctAnswer": 3
+          "option1": "Kidney",
+          "option2": "Pancreas",
+          "option3": "Liver",
+          "option4": "Bladder",
+      "correctAnswer": 1
   },
   {
       "question": "Which joint on your body does 360 degrees turn",
