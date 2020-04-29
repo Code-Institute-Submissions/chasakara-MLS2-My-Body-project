@@ -19,36 +19,44 @@ fetch("quiz.json")
     questions = loadedQuestions;
     startGame();
   })
-  
+
+  // A function to start the game
  function startGame () {
-  questionCounter = 0;
   score = 0;
+  questionCounter = 0;
   availableQuesions = [...questions];
   getNewQuestion();
 };
 
+// get questions from available question array
 function getNewQuestion() {
   if (availableQuesions.length == 0 || questionCounter >= maxQuestions) {
-    localStorage.setItem("RecentScore", score);
     return window.location.assign("/quiz.html");
-    
-  }
+    }
+
+    // Counts the number of questions that have been answered 
   questionCounter++;
   progressText.innerText = `Question ${questionCounter}/${maxQuestions}`;
-
+  
+  // Select random questions from the availabe questions 
   const questionIndex = Math.floor(Math.random() * availableQuesions.length);
   currentQuestion = availableQuesions[questionIndex];
   question.innerText = currentQuestion.question;
 
+  availableQuesions.splice(questionIndex, 1);
+  acceptingAnswers = true;
+
+  // Grabs the option from the data number and get the option from the current question
   options.forEach(option => {
     const number = option.dataset["number"];
     option.innerText = currentQuestion["option" + number];
   });
 
-  availableQuesions.splice(questionIndex, 1);
-  acceptingAnswers = true;
+  
 };
 
+
+//
 options.forEach(option => {
   option.addEventListener("click", e => {
     if (!acceptingAnswers) return;
@@ -73,6 +81,8 @@ options.forEach(option => {
   });
 });
 
+
+//
 function incrementScore (num){
   score += num;
   scoreText.innerText = score;
