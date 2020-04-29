@@ -86,15 +86,17 @@ that moves, refreshes, or otherwise changes on your screen without requiring you
 
 #### Chrome Developer Tools
 
-Frequent testing was carried out using Chrome’s developer tools to ensure that Java Script code was behaving as intended and errors that would have been generated. Using console log l could see the ouptup of the code.
- The content of the site behaved properly and looked good across a range of screen sizes. This was also utilised to ensure that there was sufficient contrast between text and the background colour.
+Frequent testing was carried out using Chrome’s developer tools to ensure that Java Script code was
+behaving as intended and errors that would have been generated. Using console log l could see the ouptup of the code.
+The content of the site behaved properly and looked good across a range of screen sizes. This was also utilised to 
+ensure that there was sufficient contrast between text and the background colour.
 
 
 #### Manual Testing
 
 Input values were put into the input field and if the value is not a number 
 nothing will be inputed but if the value is a number it will be inputed. After 
-the input field had data of numbers the and calculate button is then clicked and it 
+the input field has values numbers the calculate button is clicked and it 
 returned a value inside the modal that that shows the users body mass and healthy tips.
 The answers on the quiz were responding exactly as intended between a correct answer
 highlighted a green color and then a bonus 5 points was added while an incorrect answer 

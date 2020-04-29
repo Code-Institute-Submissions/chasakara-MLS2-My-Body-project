@@ -97,8 +97,9 @@ h3 {color: #000000;}
 .question{margin: 15px 0;}
 
 .option-answer {padding: 1.4rem;
-                font-family: 'Special Elite', cursive;
-                width: 100%;}
+               height: auto;
+               font-family: 'Special Elite', cursive;
+               width: 100%;}
 
 .correct { background-color: #008000;}
 
