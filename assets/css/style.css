@@ -82,7 +82,7 @@ h3 {color: #000000;}
 #quiz {margin-top: 1.5rem;}
 
 .option-container { width: auto;
-                    height: 100px;
+                    height: auto;
                     margin-bottom: 0.4rem;
                     display: flex;
                     border-radius: 18px;
