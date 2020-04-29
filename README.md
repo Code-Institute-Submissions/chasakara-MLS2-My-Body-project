@@ -1,10 +1,7 @@
 # My Body 
-Live website: https://chasakara.github.io/MLS2-My-Body-project/.
-
-Github Repo: https://github.com/chasakara/MLS2-My-Body-project.git
 
 # Description 
-It is a website were the user enters his weight, height, weist and neck in the inputs
+My body is a website were the user enters his weight, height, weist and neck in the inputs
 field and they are calculated to give a ratio value of called Body Mass Index (BMI).
 The body mass index will show the user if they are underweight,normal, overweight or 
 obese and then they will be given healthy tips on how to stay healthy. 
@@ -29,13 +26,15 @@ As a user l would want to play the quiz
 
 ## Features
 
+**Landing page** - A page that has inputs fields for the user to input data 
+
 **Inputs** - This were the user inputs their weight, height, neck and weist values as number
 
-**Navbar** - a responsive navbar that changes depending on what size screen is the device thereby making for easier usability
+**Navbar** - A responsive navbar that changes depending on what size screen is the device thereby making for easier usability
 
-**What is it** - a page that describe more about Body Mass Index (BMI)
+**What is it** - A page that describe more about Body Mass Index (BMI)
 
-**Quiz** - a page that displays the quiz with questions and anwers options to choose from and the score points for correct 
+**Quiz** - A page that displays the quiz with questions and anwers options to choose from and the score points for correct 
 answer and the user current answered questions aganist the remaining questions
 
 
@@ -58,21 +57,30 @@ More questions will be added with a timer
 
 ### Wire Frames
 
-https://a9729f3b-6bc0-45f2-a985-dd70085b7a9f.ws-eu01.gitpod.io/files/download/?id=7e1cde46-1719-424f-8907-93b4d5510b72
+[My Body wire frame link](https://s3.amazonaws.com/assets.mockflow.com/app/wireframepro/fileexport/Export_D79f8d84d9d89686deb9449719e3a1166.pdf)
 
 #### Technologies Used 
 
-[HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) - Is the standard markup language for documents designed to be displayed in a web browser. 
+* [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) 
 
-[CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) - It describes how HTML elements are to be displayed on screen, paper, or in other media. CSS saves a lot of work. It can control the layout of multiple web pages all at once
+  * Is the standard markup language for documents designed to be displayed in a web browser. 
 
-[Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) -  Is a scripting language used to create and control dynamic website content, i.e. anything 
+* [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) 
+
+  * It describes how HTML elements are to be displayed on screen, paper, or in other media. CSS saves a lot of work. It can control the layout of multiple web pages all at once
+
+* [Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) 
+
+  * Is a scripting language used to create and control dynamic website content, i.e. anything 
 that moves, refreshes, or otherwise changes on your screen without requiring you to manually reload a web page.
 
-[Bootstrap](https://getbootstrap.com/) - Is a framework to help you design websites faster and easier. It includes HTML and CSS based design templates
+* [Bootstrap](https://getbootstrap.com/) 
 
-[Jquery](https://jquery.com/) -
-The project uses JQuery to simplify DOM manipulation
+  * Is a framework to help you design websites faster and easier. It includes HTML and CSS based design templates
+
+* [Jquery](https://jquery.com/)
+
+  * The project uses JQuery to simplify DOM manipulation
 
 ## Testing
 
@@ -103,6 +111,30 @@ Clicking on the logo takes you to home page.
 Clicking on the What is it take you to what is it page.
 
 Clicking on the Quiz takes you to quiz page.
+
+This website was also tested manually on a range of devices and internet browsers:
+
+MacBook Laptop
+
+Google Chrome
+
+Opera 
+
+Mozilla Firefox
+
+Mobile Samsung Galaxy S10:
+
+Google Chrome
+
+Opera 
+
+Brave
+
+iPhone 8:
+
+Safari
+
+Google Chrome
 
 ### Validators
 
@@ -160,3 +192,6 @@ The photos of blood, heart, lungs and lungs were taken from google free hd image
 
 ### Acknoledgements 
 
+Precious_Mentor, mentor.
+
+code-institute-room.slack.com.
