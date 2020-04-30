@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Mitr&family=Special+Elite&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
 
-body {margin: 0;
+html, body {margin: 0;
       padding:0;
+    max-width: 100%;
+    overflow-x: hidden;
       background-color: #add8e6;}
 
 /*---navbar styling---*/
@@ -150,8 +152,7 @@ h3 {color: #000000;}
  .modal-content { background-color: #fefefe;
                   margin: auto;
                   padding: 20px;
-                  color: #ffffff;;
-                  width: 500px;
+                  color: #ffffff;
                   height: auto;
                   transform: translate();
                   background: #808080;
