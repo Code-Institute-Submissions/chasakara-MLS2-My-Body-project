@@ -41,16 +41,17 @@ body {margin: 0;
 /*---home page---*/
 
 .table-heading {text-align: center;
-                margin:15px;}
+                margin:15px;
+                padding-top: 15px;}
 
 .table-centre { margin-left:auto; 
                 margin-right:auto;}
 
 .carousel-text{transform: translate();
                background: rgba(0, 0, 0, 0.4);
-               z-index: 1; }              
+               z-index: 1;}              
 
-.carousel-item {height: 300px;}
+.carousel-item {height: 400px;}
 
 .slide {z-index: 1;}
 
@@ -70,6 +71,8 @@ td {margin-top:2rem }
         margin-top: 1rem;}
 
 .slidediv {margin-top: 5px;}
+
+button, input, optgroup, select, textarea {margin: 5px 0;}
 
 /*---What-is-it page---*/
 
