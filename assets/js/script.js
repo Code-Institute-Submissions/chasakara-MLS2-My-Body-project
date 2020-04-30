@@ -13,13 +13,16 @@ let questions = [10];
 
 // Get the question array from json file
 fetch("quiz.json")
-    .then(res => {
-        return res.json();
-    })
-    .then(loadedQuestions => {
-        questions = loadedQuestions;
-        startGame();
-    })
+  .then(res => {
+    return res.json();
+  })
+  .then(loadedQuestions => {
+    questions = loadedQuestions;
+    startGame();
+  })
+  .catch(err => {
+    console.error(err);
+  });
 
 // A function to start the game
 function startGame() {
