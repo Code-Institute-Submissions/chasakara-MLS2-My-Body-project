@@ -32,7 +32,7 @@ function startGame() {
 // get questions from available question array
 function getNewQuestion() {
     if (availableQuesions.length == 0 || questionCounter >= maxQuestions) {
-        return window.location.assign("/quiz.html");
+        return window.location.assign("quiz.html");
     }
 
     // Counts the number of questions that have been answered 
