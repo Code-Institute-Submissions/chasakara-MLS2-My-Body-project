@@ -29,7 +29,7 @@ function add() {
     var bmi = weight / (height * height);
 
     // Statements diplayed in the modal depending on the value of bmi
-    if (bmi <= 18.5) {
+    if ((bmi > 15 ) && (bmi <= 18.5)) {
       document.getElementById('result').innerHTML =(`Your BMI is=>` + bmi + 
                                                     `<br><br>It shows that you are a underweight. It's likely that you're not consuming a healthy, balanced diet, which can lead 
                                                     to you lacking nutrients that your body needs to work properly. <br><br>
@@ -45,7 +45,7 @@ function add() {
                                                     `<br><br>Its shows that you are a overweight. You are consuming more calories than your body needs which it ends up storing as fat.<br><br>
                                                      Healthy tip => You need to reduce the amount of calories you take daily a bit and exercise a little bit more.`);
     }
-    else if (bmi > 30) {
+    else if ((bmi > 30) && (bmi < 50)) {
      document.getElementById('result').innerHTML =(`Your BMI is=>` + bmi + 
                                                    `<br><br>It shows that you are a obese. This means that you are more likely to develop heart disease, type 2 diabetes. <br><br>
                                                    You are consuming way more calories than your bodyneeds which it ends up storing as fat. 
