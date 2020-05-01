@@ -1,7 +1,7 @@
 # My Body 
 
 # Description 
-My body is a website were the user enters his weight, height, weist and neck in the inputs
+My body is a website were the adult user enters his weight, height, weist and neck in the inputs
 field and they are calculated to give a ratio value of called Body Mass Index (BMI).
 The body mass index will show the user if they are underweight,normal, overweight or 
 obese and then they will be given healthy tips on how to stay healthy. 
