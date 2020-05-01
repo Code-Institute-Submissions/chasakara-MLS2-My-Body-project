@@ -102,7 +102,8 @@ The answers on the quiz were responding exactly as intended between a correct an
 highlighted a green color and then a bonus 5 points was added while an incorrect answer 
 it will be highlighted in red color and no bonus points were added. The questions were 
 being displayed in random order as intended the users current answered question was 
-displayed out of the total questions the user has to answer
+displayed out of the total questions the user has to answer and after the user finished answering 
+the 10 questions the page will reload with other different questions.
 
 Scrolling is smooth accross all browsers.
 
